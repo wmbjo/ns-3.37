@@ -1,0 +1,103 @@
+Performing C++ SOURCE FILE Test MISSING_OSTREAM_NULLPTR_OPERATOR failed with the following output:
+Change Dir: /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-0TGRGM
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_131c4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_131c4.dir/build.make CMakeFiles/cmTC_131c4.dir/build
+Building CXX object CMakeFiles/cmTC_131c4.dir/src.cxx.o
+/usr/bin/clang++ -DMISSING_OSTREAM_NULLPTR_OPERATOR  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_131c4.dir/src.cxx.o -MF CMakeFiles/cmTC_131c4.dir/src.cxx.o.d -o CMakeFiles/cmTC_131c4.dir/src.cxx.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-0TGRGM/src.cxx
+/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-0TGRGM/src.cxx:11:12: error: use of overloaded operator '<<' is ambiguous (with operand types 'std::ostream' (aka 'basic_ostream<char>') and 'std::nullptr_t')
+        os << std::nullptr_t();
+        ~~ ^  ~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream:216:20: note: candidate function
+    basic_ostream& operator<<(nullptr_t)
+                   ^
+/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-0TGRGM/src.cxx:4:26: note: candidate function
+    inline std::ostream& operator << (std::ostream& os, std::nullptr_t ptr)
+                         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_131c4.dir/src.cxx.o] Error 1
+make: *** [cmTC_131c4/fast] Error 2
+
+
+Source file was:
+
+    #include <iostream>
+    #include <cstddef>
+    inline std::ostream& operator << (std::ostream& os, std::nullptr_t ptr)
+    {
+      return os << "nullptr"; //whatever you want nullptr to show up as in the console
+    }
+    int main()
+    {
+        std::ostream os(NULL);
+        os << std::nullptr_t();
+        return 0;
+    }
+    
+
+Performing C++ SOURCE FILE Test HAVE_UINT128_T failed with the following output:
+Change Dir: /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-9o7Y6R
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bd6aa/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bd6aa.dir/build.make CMakeFiles/cmTC_bd6aa.dir/build
+Building CXX object CMakeFiles/cmTC_bd6aa.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_UINT128_T  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_bd6aa.dir/src.cxx.o -MF CMakeFiles/cmTC_bd6aa.dir/src.cxx.o.d -o CMakeFiles/cmTC_bd6aa.dir/src.cxx.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-9o7Y6R/src.cxx
+/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-9o7Y6R/src.cxx:5:18: error: use of undeclared identifier 'uint128_t'
+            if ((uint128_t *) 0) return 0;
+                 ^
+/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-9o7Y6R/src.cxx:5:29: error: expected expression
+            if ((uint128_t *) 0) return 0;
+                            ^
+/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-9o7Y6R/src.cxx:6:25: error: use of undeclared identifier 'uint128_t'
+            if (sizeof (uint128_t)) return 0;
+                        ^
+3 errors generated.
+make[1]: *** [CMakeFiles/cmTC_bd6aa.dir/src.cxx.o] Error 1
+make: *** [cmTC_bd6aa/fast] Error 2
+
+
+Source file was:
+#include <stdint.h>
+       int main(int argc, char **argv)
+         {
+            (void)argc; (void)argv;
+            if ((uint128_t *) 0) return 0;
+            if (sizeof (uint128_t)) return 0;
+            return 1;
+         }
+
+Determining if the include file netpacket/packet.h exists failed with the following output:
+Change Dir: /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-yXBwIR
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c14fa/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c14fa.dir/build.make CMakeFiles/cmTC_c14fa.dir/build
+Building C object CMakeFiles/cmTC_c14fa.dir/CheckIncludeFile.c.o
+/usr/bin/clang   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_c14fa.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c14fa.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c14fa.dir/CheckIncludeFile.c.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-yXBwIR/CheckIncludeFile.c
+/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-yXBwIR/CheckIncludeFile.c:1:10: fatal error: 'netpacket/packet.h' file not found
+#include <netpacket/packet.h>
+         ^~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c14fa.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_c14fa/fast] Error 2
+
+
+
+Determining if files boost/units/quantity.hpp;boost/units/systems/si.hpp exist failed with the following output:
+Change Dir: /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-OoIwEn
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3fffd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3fffd.dir/build.make CMakeFiles/cmTC_3fffd.dir/build
+Building CXX object CMakeFiles/cmTC_3fffd.dir/HAVE_BOOST_UNITS.cpp.o
+/usr/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_3fffd.dir/HAVE_BOOST_UNITS.cpp.o -MF CMakeFiles/cmTC_3fffd.dir/HAVE_BOOST_UNITS.cpp.o.d -o CMakeFiles/cmTC_3fffd.dir/HAVE_BOOST_UNITS.cpp.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-OoIwEn/HAVE_BOOST_UNITS.cpp
+/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/CMakeFiles/CMakeScratch/TryCompile-OoIwEn/HAVE_BOOST_UNITS.cpp:2:10: fatal error: 'boost/units/quantity.hpp' file not found
+#include <boost/units/quantity.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3fffd.dir/HAVE_BOOST_UNITS.cpp.o] Error 1
+make: *** [cmTC_3fffd/fast] Error 2
+
+
+Source:
+/* */
+#include <boost/units/quantity.hpp>
+#include <boost/units/systems/si.hpp>
+
+
+int main(void){return 0;}
+

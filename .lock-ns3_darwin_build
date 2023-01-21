@@ -1,0 +1,32 @@
+#! /usr/bin/env python3
+
+launch_dir = '/Users/william/Documents/ns-allinone-3.37/ns-3.37'
+run_dir = '/Users/william/Documents/ns-allinone-3.37/ns-3.37'
+top_dir = '/Users/william/Documents/ns-allinone-3.37/ns-3.37'
+out_dir = '/Users/william/Documents/ns-allinone-3.37/ns-3.37/build'
+
+
+NS3_ENABLED_MODULES = ['ns3-wimax', 'ns3-wifi', 'ns3-wave', 'ns3-virtual-net-device', 'ns3-uan', 'ns3-traffic-control', 'ns3-topology-read', 'ns3-stats', 'ns3-spectrum', 'ns3-sixlowpan', 'ns3-propagation', 'ns3-point-to-point-layout', 'ns3-point-to-point', 'ns3-olsr', 'ns3-nix-vector-routing', 'ns3-network', 'ns3-netanim', 'ns3-mobility', 'ns3-mesh', 'ns3-lte', 'ns3-lr-wpan', 'ns3-internet-apps', 'ns3-internet', 'ns3-flow-monitor', 'ns3-energy', 'ns3-dsr', 'ns3-dsdv', 'ns3-csma-layout', 'ns3-csma', 'ns3-core', 'ns3-config-store', 'ns3-buildings', 'ns3-bridge', 'ns3-applications', 'ns3-aodv', 'ns3-antenna', ]
+NS3_ENABLED_CONTRIBUTED_MODULES = []
+NS3_MODULE_PATH = ['/Users/william/opt/miniconda3/bin', '/Users/william/opt/miniconda3/condabin', '/opt/homebrew/bin', '/opt/homebrew/sbin', '/usr/local/bin', '/System/Cryptexes/App/usr/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Library/TeX/texbin', '/Library/Apple/usr/bin', '/Users/william/Library/Application Support/JetBrains/Toolbox/scripts', '/Users/william/Documents/ns-allinone-3.37/ns-3.37/build', '/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib']
+ENABLE_REAL_TIME = False
+ENABLE_EXAMPLES = False
+ENABLE_TESTS = False
+ENABLE_OPENFLOW = False
+NSCLICK = False
+ENABLE_BRITE = False
+ENABLE_SUDO = False
+ENABLE_PYTHON_BINDINGS = False
+EXAMPLE_DIRECTORIES = []
+APPNAME = 'ns'
+BUILD_PROFILE = 'debug'
+VERSION = '3.37' 
+BUILD_VERSION_STRING = '' 
+PYTHON = ['/Users/william/opt/miniconda3/bin/python3.9']
+VALGRIND_FOUND = False 
+
+
+ns3_runnable_programs = ['/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/utils/perf/ns3.37-perf-io-debug', '/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/utils/ns3.37-print-introspected-doxygen-debug', '/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/utils/ns3.37-bench-packets-debug', '/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/utils/ns3.37-bench-scheduler-debug', '/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/scratch/subdir/ns3.37-scratch-subdir-debug', '/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/scratch/ns3.37-scratch-simulator-debug', '/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/ns3.37-stdlib_pch_exec-debug', ]
+
+ns3_runnable_scripts = []
+
