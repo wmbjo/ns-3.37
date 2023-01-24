@@ -1056,7 +1056,9 @@
 /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/examples/wireless/CMakeFiles/install.dir
 /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/examples/wireless/CMakeFiles/install/local.dir
 /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/examples/wireless/CMakeFiles/install/strip.dir
+/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/scratch/CMakeFiles/scratch_main-propagation-loss.dir
 /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/scratch/CMakeFiles/scratch_scratch-simulator.dir
+/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir
 /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir
 /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/scratch/CMakeFiles/test.dir
 /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/scratch/CMakeFiles/edit_cache.dir

@@ -7351,6 +7351,11 @@
 },
 {
   "directory": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/examples/wireless",
+  "command": "/usr/bin/c++ -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\\\"/Users/william/Documents/ns-allinone-3.37/ns-3.37\\\" -D__APPLE__ -I/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include -I/Users/william/opt/miniconda3/include/python3.9  -arch arm64 -fPIE   -fcolor-diagnostics -Xclang -fno-pch-timestamp -Wall -Werror -Wno-error=deprecated-declarations -std=gnu++17 -Winvalid-pch -Xarch_arm64 -include/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch_arm64.hxx -o CMakeFiles/wifi-simple-adhoc.dir/wifi-simple-adhoc.cc.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/examples/wireless/wifi-simple-adhoc.cc",
+  "file": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/examples/wireless/wifi-simple-adhoc.cc"
+},
+{
+  "directory": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/examples/wireless",
   "command": "/usr/bin/c++ -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\\\"/Users/william/Documents/ns-allinone-3.37/ns-3.37\\\" -D__APPLE__ -I/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include -I/Users/william/opt/miniconda3/include/python3.9  -arch arm64 -fPIE   -fcolor-diagnostics -Xclang -fno-pch-timestamp -Wall -Werror -Wno-error=deprecated-declarations -std=gnu++17 -Winvalid-pch -Xarch_arm64 -include/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch_arm64.hxx -o CMakeFiles/mixed-wired-wireless.dir/mixed-wired-wireless.cc.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/examples/wireless/mixed-wired-wireless.cc",
   "file": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/examples/wireless/mixed-wired-wireless.cc"
 },
@@ -7466,11 +7471,6 @@
 },
 {
   "directory": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/examples/wireless",
-  "command": "/usr/bin/c++ -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\\\"/Users/william/Documents/ns-allinone-3.37/ns-3.37\\\" -D__APPLE__ -I/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include -I/Users/william/opt/miniconda3/include/python3.9  -arch arm64 -fPIE   -fcolor-diagnostics -Xclang -fno-pch-timestamp -Wall -Werror -Wno-error=deprecated-declarations -std=gnu++17 -Winvalid-pch -Xarch_arm64 -include/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch_arm64.hxx -o CMakeFiles/wifi-simple-adhoc.dir/wifi-simple-adhoc.cc.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/examples/wireless/wifi-simple-adhoc.cc",
-  "file": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/examples/wireless/wifi-simple-adhoc.cc"
-},
-{
-  "directory": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/examples/wireless",
   "command": "/usr/bin/c++ -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\\\"/Users/william/Documents/ns-allinone-3.37/ns-3.37\\\" -D__APPLE__ -I/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include -I/Users/william/opt/miniconda3/include/python3.9  -arch arm64 -fPIE   -fcolor-diagnostics -Xclang -fno-pch-timestamp -Wall -Werror -Wno-error=deprecated-declarations -std=gnu++17 -Winvalid-pch -Xarch_arm64 -include/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch_arm64.hxx -o CMakeFiles/wifi-simple-adhoc-grid.dir/wifi-simple-adhoc-grid.cc.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/examples/wireless/wifi-simple-adhoc-grid.cc",
   "file": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/examples/wireless/wifi-simple-adhoc-grid.cc"
 },
@@ -7546,8 +7546,18 @@
 },
 {
   "directory": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/scratch",
+  "command": "/usr/bin/c++ -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\\\"/Users/william/Documents/ns-allinone-3.37/ns-3.37\\\" -D__APPLE__ -I/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include -I/Users/william/opt/miniconda3/include/python3.9  -arch arm64 -fPIE   -fcolor-diagnostics -Xclang -fno-pch-timestamp -Wall -Werror -Wno-error=deprecated-declarations -std=gnu++17 -Winvalid-pch -Xarch_arm64 -include/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch_arm64.hxx -o CMakeFiles/scratch_main-propagation-loss.dir/main-propagation-loss.cc.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/main-propagation-loss.cc",
+  "file": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/main-propagation-loss.cc"
+},
+{
+  "directory": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/scratch",
   "command": "/usr/bin/c++ -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\\\"/Users/william/Documents/ns-allinone-3.37/ns-3.37\\\" -D__APPLE__ -I/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include -I/Users/william/opt/miniconda3/include/python3.9  -arch arm64 -fPIE   -fcolor-diagnostics -Xclang -fno-pch-timestamp -Wall -Werror -Wno-error=deprecated-declarations -std=gnu++17 -Winvalid-pch -Xarch_arm64 -include/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch_arm64.hxx -o CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/scratch-simulator.cc",
   "file": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/scratch-simulator.cc"
+},
+{
+  "directory": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/scratch",
+  "command": "/usr/bin/c++ -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\\\"/Users/william/Documents/ns-allinone-3.37/ns-3.37\\\" -D__APPLE__ -I/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include -I/Users/william/opt/miniconda3/include/python3.9  -arch arm64 -fPIE   -fcolor-diagnostics -Xclang -fno-pch-timestamp -Wall -Werror -Wno-error=deprecated-declarations -std=gnu++17 -Winvalid-pch -Xarch_arm64 -include/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch_arm64.hxx -o CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/three-gpp-v2v-channel-example.cc.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/three-gpp-v2v-channel-example.cc",
+  "file": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/three-gpp-v2v-channel-example.cc"
 },
 {
   "directory": "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/scratch",

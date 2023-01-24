@@ -532,6 +532,11 @@ src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/thompson-sampling-wifi-ma
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
   /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/core-module.h \
   /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/int64x64-128.h \
+  /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/example-as-test.h \
+  /Users/william/Documents/ns-allinone-3.37/ns-3.37/src/core/model/example-as-test.h \
+  /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/test.h \
+  /Users/william/Documents/ns-allinone-3.37/ns-3.37/src/core/model/test.h \
+  /Users/william/Documents/ns-allinone-3.37/ns-3.37/src/core/model/system-wall-clock-ms.h \
   /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/csv-reader.h \
   /Users/william/Documents/ns-allinone-3.37/ns-3.37/src/core/helper/csv-reader.h \
   /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/event-garbage-collector.h \
@@ -547,9 +552,6 @@ src/wifi/CMakeFiles/libwifi-obj.dir/model/rate-control/thompson-sampling-wifi-ma
   /Users/william/Documents/ns-allinone-3.37/ns-3.37/src/core/model/ascii-file.h \
   /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/ascii-test.h \
   /Users/william/Documents/ns-allinone-3.37/ns-3.37/src/core/model/ascii-test.h \
-  /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/test.h \
-  /Users/william/Documents/ns-allinone-3.37/ns-3.37/src/core/model/test.h \
-  /Users/william/Documents/ns-allinone-3.37/ns-3.37/src/core/model/system-wall-clock-ms.h \
   /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/attribute-accessor-helper.h \
   /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/attribute-construction-list.h \
   /Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/attribute-container.h \

@@ -5,7 +5,9 @@ cmake_policy(SET CMP0009 NEW)
 # single_source_file_scratches at scratch/CMakeLists.txt:57 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/[^.]*.cc")
 set(OLD_GLOB
+  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/main-propagation-loss.cc"
   "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/scratch-simulator.cc"
+  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/three-gpp-v2v-channel-example.cc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -26,12 +28,17 @@ endif()
 # scratch_subdirectories at scratch/CMakeLists.txt:64 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES true "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/**")
 set(OLD_GLOB
+  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/.gitignore"
   "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/CMakeLists.txt"
+  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/main-propagation-loss.cc"
+  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/main-propagation-loss.pdf"
   "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/scratch-simulator.cc"
   "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/subdir"
   "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/subdir/scratch-subdir-additional-header.cc"
   "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/subdir/scratch-subdir-additional-header.h"
   "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/subdir/scratch-subdir.cc"
+  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/testplot.plt"
+  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/scratch/three-gpp-v2v-channel-example.cc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

@@ -173,6 +173,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+scratch/CMakeFiles/scratch_main-propagation-loss.dir/rule:
+	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_main-propagation-loss.dir/rule
+.PHONY : scratch/CMakeFiles/scratch_main-propagation-loss.dir/rule
+
+# Convenience name for target.
+scratch_main-propagation-loss: scratch/CMakeFiles/scratch_main-propagation-loss.dir/rule
+.PHONY : scratch_main-propagation-loss
+
+# fast build rule for target.
+scratch_main-propagation-loss/fast:
+	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_main-propagation-loss.dir/build.make scratch/CMakeFiles/scratch_main-propagation-loss.dir/build
+.PHONY : scratch_main-propagation-loss/fast
+
+# Convenience name for target.
 scratch/CMakeFiles/scratch_scratch-simulator.dir/rule:
 	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_scratch-simulator.dir/rule
 .PHONY : scratch/CMakeFiles/scratch_scratch-simulator.dir/rule
@@ -187,6 +201,20 @@ scratch_scratch-simulator/fast:
 .PHONY : scratch_scratch-simulator/fast
 
 # Convenience name for target.
+scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/rule:
+	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/rule
+.PHONY : scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/rule
+
+# Convenience name for target.
+scratch_three-gpp-v2v-channel-example: scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/rule
+.PHONY : scratch_three-gpp-v2v-channel-example
+
+# fast build rule for target.
+scratch_three-gpp-v2v-channel-example/fast:
+	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/build.make scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/build
+.PHONY : scratch_three-gpp-v2v-channel-example/fast
+
+# Convenience name for target.
 scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule:
 	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule
 .PHONY : scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule
@@ -199,6 +227,30 @@ scratch_subdir_scratch-subdir: scratch/CMakeFiles/scratch_subdir_scratch-subdir.
 scratch_subdir_scratch-subdir/fast:
 	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build
 .PHONY : scratch_subdir_scratch-subdir/fast
+
+main-propagation-loss.o: main-propagation-loss.cc.o
+.PHONY : main-propagation-loss.o
+
+# target to build an object file
+main-propagation-loss.cc.o:
+	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_main-propagation-loss.dir/build.make scratch/CMakeFiles/scratch_main-propagation-loss.dir/main-propagation-loss.cc.o
+.PHONY : main-propagation-loss.cc.o
+
+main-propagation-loss.i: main-propagation-loss.cc.i
+.PHONY : main-propagation-loss.i
+
+# target to preprocess a source file
+main-propagation-loss.cc.i:
+	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_main-propagation-loss.dir/build.make scratch/CMakeFiles/scratch_main-propagation-loss.dir/main-propagation-loss.cc.i
+.PHONY : main-propagation-loss.cc.i
+
+main-propagation-loss.s: main-propagation-loss.cc.s
+.PHONY : main-propagation-loss.s
+
+# target to generate assembly for a file
+main-propagation-loss.cc.s:
+	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_main-propagation-loss.dir/build.make scratch/CMakeFiles/scratch_main-propagation-loss.dir/main-propagation-loss.cc.s
+.PHONY : main-propagation-loss.cc.s
 
 scratch-simulator.o: scratch-simulator.cc.o
 .PHONY : scratch-simulator.o
@@ -272,6 +324,30 @@ subdir/scratch-subdir.cc.s:
 	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/build.make scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/subdir/scratch-subdir.cc.s
 .PHONY : subdir/scratch-subdir.cc.s
 
+three-gpp-v2v-channel-example.o: three-gpp-v2v-channel-example.cc.o
+.PHONY : three-gpp-v2v-channel-example.o
+
+# target to build an object file
+three-gpp-v2v-channel-example.cc.o:
+	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/build.make scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/three-gpp-v2v-channel-example.cc.o
+.PHONY : three-gpp-v2v-channel-example.cc.o
+
+three-gpp-v2v-channel-example.i: three-gpp-v2v-channel-example.cc.i
+.PHONY : three-gpp-v2v-channel-example.i
+
+# target to preprocess a source file
+three-gpp-v2v-channel-example.cc.i:
+	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/build.make scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/three-gpp-v2v-channel-example.cc.i
+.PHONY : three-gpp-v2v-channel-example.cc.i
+
+three-gpp-v2v-channel-example.s: three-gpp-v2v-channel-example.cc.s
+.PHONY : three-gpp-v2v-channel-example.s
+
+# target to generate assembly for a file
+three-gpp-v2v-channel-example.cc.s:
+	cd /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/build.make scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/three-gpp-v2v-channel-example.cc.s
+.PHONY : three-gpp-v2v-channel-example.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -285,8 +361,13 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... scratch_main-propagation-loss"
 	@echo "... scratch_scratch-simulator"
 	@echo "... scratch_subdir_scratch-subdir"
+	@echo "... scratch_three-gpp-v2v-channel-example"
+	@echo "... main-propagation-loss.o"
+	@echo "... main-propagation-loss.i"
+	@echo "... main-propagation-loss.s"
 	@echo "... scratch-simulator.o"
 	@echo "... scratch-simulator.i"
 	@echo "... scratch-simulator.s"
@@ -296,6 +377,9 @@ help:
 	@echo "... subdir/scratch-subdir.o"
 	@echo "... subdir/scratch-subdir.i"
 	@echo "... subdir/scratch-subdir.s"
+	@echo "... three-gpp-v2v-channel-example.o"
+	@echo "... three-gpp-v2v-channel-example.i"
+	@echo "... three-gpp-v2v-channel-example.s"
 .PHONY : help
 
 

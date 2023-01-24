@@ -5464,6 +5464,19 @@ wifi-ofdm-eht-validation/fast:
 .PHONY : wifi-ofdm-eht-validation/fast
 
 #=============================================================================
+# Target rules for targets named scratch_main-propagation-loss
+
+# Build rule for target.
+scratch_main-propagation-loss: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch_main-propagation-loss
+.PHONY : scratch_main-propagation-loss
+
+# fast build rule for target.
+scratch_main-propagation-loss/fast:
+	$(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_main-propagation-loss.dir/build.make scratch/CMakeFiles/scratch_main-propagation-loss.dir/build
+.PHONY : scratch_main-propagation-loss/fast
+
+#=============================================================================
 # Target rules for targets named scratch_scratch-simulator
 
 # Build rule for target.
@@ -5475,6 +5488,19 @@ scratch_scratch-simulator: cmake_check_build_system
 scratch_scratch-simulator/fast:
 	$(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_scratch-simulator.dir/build.make scratch/CMakeFiles/scratch_scratch-simulator.dir/build
 .PHONY : scratch_scratch-simulator/fast
+
+#=============================================================================
+# Target rules for targets named scratch_three-gpp-v2v-channel-example
+
+# Build rule for target.
+scratch_three-gpp-v2v-channel-example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch_three-gpp-v2v-channel-example
+.PHONY : scratch_three-gpp-v2v-channel-example
+
+# fast build rule for target.
+scratch_three-gpp-v2v-channel-example/fast:
+	$(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/build.make scratch/CMakeFiles/scratch_three-gpp-v2v-channel-example.dir/build
+.PHONY : scratch_three-gpp-v2v-channel-example/fast
 
 #=============================================================================
 # Target rules for targets named scratch_subdir_scratch-subdir
@@ -5938,8 +5964,10 @@ help:
 	@echo "... sample-random-variable-stream"
 	@echo "... sample-show-progress"
 	@echo "... sample-simulator"
+	@echo "... scratch_main-propagation-loss"
 	@echo "... scratch_scratch-simulator"
 	@echo "... scratch_subdir_scratch-subdir"
+	@echo "... scratch_three-gpp-v2v-channel-example"
 	@echo "... second"
 	@echo "... seventh"
 	@echo "... simple-alternate-routing"
