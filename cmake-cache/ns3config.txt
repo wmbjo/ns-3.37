@@ -1,6 +1,6 @@
 ---- Summary of optional ns-3 features:
-Build profile                 : debug
-Build directory               : /Users/william/Documents/ns-allinone-3.37/ns-3.37/build
+Build profile                 : optimized
+Build directory               : /Users/william/Documents/ns-3.37/build
 Build version embedding       : OFF (not requested)
 BRITE Integration             : [31mOFF (missing dependency)[0m
 DES Metrics event collection  : OFF (not requested)
@@ -10,14 +10,14 @@ Examples                      : [32mON[0m
 File descriptor NetDevice     : [31mOFF (missing dependency)[0m
 GNU Scientific Library (GSL)  : [31mOFF (missing dependency)[0m
 GtkConfigStore                : [31mOFF (missing dependency)[0m
-LibXml2 support               : [31mOFF (missing dependency)[0m
+LibXml2 support               : [32mON[0m
 MPI Support                   : OFF (not requested)
 ns-3 Click Integration        : [31mOFF (missing dependency)[0m
 ns-3 OpenFlow Integration     : [31mOFF (missing dependency)[0m
 Netmap emulation FdNetDevice  : OFF (not requested)
 PyViz visualizer              : [31mOFF (missing dependency)[0m
 Python Bindings               : OFF (not requested)
-SQLite support                : [31mOFF (missing dependency)[0m
+SQLite support                : [32mON[0m
 Tap Bridge                    : OFF (not requested)
 Tap FdNetDevice               : OFF (not requested)
 Tests                         : [32mON[0m

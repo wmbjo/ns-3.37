@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-lr-wpan-test-debug.dylib"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-lr-wpan-test-debug.pdb"
+  "../../../build/lib/libns3.37-lr-wpan-test-optimized.dylib"
+  "../../../build/lib/libns3.37-lr-wpan-test-optimized.pdb"
   "CMakeFiles/liblr-wpan-test.dir/test/lr-wpan-ack-test.cc.o"
   "CMakeFiles/liblr-wpan-test.dir/test/lr-wpan-ack-test.cc.o.d"
   "CMakeFiles/liblr-wpan-test.dir/test/lr-wpan-cca-test.cc.o"

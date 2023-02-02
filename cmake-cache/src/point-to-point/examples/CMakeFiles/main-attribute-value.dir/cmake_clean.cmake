@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/point-to-point/examples/ns3.37-main-attribute-value-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/point-to-point/examples/ns3.37-main-attribute-value-debug.pdb"
+  "../../../../build/src/point-to-point/examples/ns3.37-main-attribute-value-optimized"
+  "../../../../build/src/point-to-point/examples/ns3.37-main-attribute-value-optimized.pdb"
   "CMakeFiles/main-attribute-value.dir/main-attribute-value.cc.o"
   "CMakeFiles/main-attribute-value.dir/main-attribute-value.cc.o.d"
 )

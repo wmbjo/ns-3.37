@@ -8,6 +8,6 @@ URL:
 Version: 3.37
 Requires: 
 Requires.private: 
-Cflags: -I"${includedir}"  -I/Users/william/opt/miniconda3/include/python3.9
-Libs: -L"${libdir}" -lns3.37-core-debug  -linterface_libs-NOTFOUND
+Cflags: -I"${includedir}" -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr; -I/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include/libxml2 -I/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11
+Libs: -L"${libdir}" -lns3.37-core-optimized  -linterface_libs-NOTFOUND
 Libs.private: -L"${libdir}"  -lall_libs-NOTFOUND

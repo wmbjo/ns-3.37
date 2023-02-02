@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/network/examples/ns3.37-lollipop-comparisions-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/network/examples/ns3.37-lollipop-comparisions-debug.pdb"
+  "../../../../build/src/network/examples/ns3.37-lollipop-comparisions-optimized"
+  "../../../../build/src/network/examples/ns3.37-lollipop-comparisions-optimized.pdb"
   "CMakeFiles/lollipop-comparisions.dir/lollipop-comparisions.cc.o"
   "CMakeFiles/lollipop-comparisions.dir/lollipop-comparisions.cc.o.d"
 )

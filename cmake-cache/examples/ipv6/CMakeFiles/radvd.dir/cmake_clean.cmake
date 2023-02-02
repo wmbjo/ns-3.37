@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/ipv6/ns3.37-radvd-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/ipv6/ns3.37-radvd-debug.pdb"
+  "../../../build/examples/ipv6/ns3.37-radvd-optimized"
+  "../../../build/examples/ipv6/ns3.37-radvd-optimized.pdb"
   "CMakeFiles/radvd.dir/radvd.cc.o"
   "CMakeFiles/radvd.dir/radvd.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-mobility-debug.dylib"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-mobility-debug.pdb"
+  "../../../build/lib/libns3.37-mobility-optimized.dylib"
+  "../../../build/lib/libns3.37-mobility-optimized.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

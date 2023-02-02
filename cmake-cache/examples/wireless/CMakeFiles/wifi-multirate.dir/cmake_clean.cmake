@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-multirate-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-multirate-debug.pdb"
+  "../../../build/examples/wireless/ns3.37-wifi-multirate-optimized"
+  "../../../build/examples/wireless/ns3.37-wifi-multirate-optimized.pdb"
   "CMakeFiles/wifi-multirate.dir/wifi-multirate.cc.o"
   "CMakeFiles/wifi-multirate.dir/wifi-multirate.cc.o.d"
 )

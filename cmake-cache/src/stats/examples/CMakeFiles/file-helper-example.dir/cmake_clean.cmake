@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/stats/examples/ns3.37-file-helper-example-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/stats/examples/ns3.37-file-helper-example-debug.pdb"
+  "../../../../build/src/stats/examples/ns3.37-file-helper-example-optimized"
+  "../../../../build/src/stats/examples/ns3.37-file-helper-example-optimized.pdb"
   "CMakeFiles/file-helper-example.dir/file-helper-example.cc.o"
   "CMakeFiles/file-helper-example.dir/file-helper-example.cc.o.d"
 )

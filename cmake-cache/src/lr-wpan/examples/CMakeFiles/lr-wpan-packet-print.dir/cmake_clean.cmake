@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lr-wpan/examples/ns3.37-lr-wpan-packet-print-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lr-wpan/examples/ns3.37-lr-wpan-packet-print-debug.pdb"
+  "../../../../build/src/lr-wpan/examples/ns3.37-lr-wpan-packet-print-optimized"
+  "../../../../build/src/lr-wpan/examples/ns3.37-lr-wpan-packet-print-optimized.pdb"
   "CMakeFiles/lr-wpan-packet-print.dir/lr-wpan-packet-print.cc.o"
   "CMakeFiles/lr-wpan-packet-print.dir/lr-wpan-packet-print.cc.o.d"
 )

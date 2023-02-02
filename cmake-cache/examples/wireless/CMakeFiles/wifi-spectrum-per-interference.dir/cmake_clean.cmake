@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-spectrum-per-interference-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-spectrum-per-interference-debug.pdb"
+  "../../../build/examples/wireless/ns3.37-wifi-spectrum-per-interference-optimized"
+  "../../../build/examples/wireless/ns3.37-wifi-spectrum-per-interference-optimized.pdb"
   "CMakeFiles/wifi-spectrum-per-interference.dir/wifi-spectrum-per-interference.cc.o"
   "CMakeFiles/wifi-spectrum-per-interference.dir/wifi-spectrum-per-interference.cc.o.d"
 )

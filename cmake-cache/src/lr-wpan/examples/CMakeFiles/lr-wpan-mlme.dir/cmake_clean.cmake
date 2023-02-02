@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lr-wpan/examples/ns3.37-lr-wpan-mlme-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lr-wpan/examples/ns3.37-lr-wpan-mlme-debug.pdb"
+  "../../../../build/src/lr-wpan/examples/ns3.37-lr-wpan-mlme-optimized"
+  "../../../../build/src/lr-wpan/examples/ns3.37-lr-wpan-mlme-optimized.pdb"
   "CMakeFiles/lr-wpan-mlme.dir/lr-wpan-mlme.cc.o"
   "CMakeFiles/lr-wpan-mlme.dir/lr-wpan-mlme.cc.o.d"
 )

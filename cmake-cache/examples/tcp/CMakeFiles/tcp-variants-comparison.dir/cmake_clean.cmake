@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/tcp/ns3.37-tcp-variants-comparison-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/tcp/ns3.37-tcp-variants-comparison-debug.pdb"
+  "../../../build/examples/tcp/ns3.37-tcp-variants-comparison-optimized"
+  "../../../build/examples/tcp/ns3.37-tcp-variants-comparison-optimized.pdb"
   "CMakeFiles/tcp-variants-comparison.dir/tcp-variants-comparison.cc.o"
   "CMakeFiles/tcp-variants-comparison.dir/tcp-variants-comparison.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-core-test-debug.dylib"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-core-test-debug.pdb"
+  "../../../build/lib/libns3.37-core-test-optimized.dylib"
+  "../../../build/lib/libns3.37-core-test-optimized.pdb"
   "CMakeFiles/libcore-test.dir/test/attribute-container-test-suite.cc.o"
   "CMakeFiles/libcore-test.dir/test/attribute-container-test-suite.cc.o.d"
   "CMakeFiles/libcore-test.dir/test/attribute-test-suite.cc.o"

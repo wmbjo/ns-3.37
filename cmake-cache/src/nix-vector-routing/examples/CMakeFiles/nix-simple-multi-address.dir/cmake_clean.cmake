@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/nix-vector-routing/examples/ns3.37-nix-simple-multi-address-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/nix-vector-routing/examples/ns3.37-nix-simple-multi-address-debug.pdb"
+  "../../../../build/src/nix-vector-routing/examples/ns3.37-nix-simple-multi-address-optimized"
+  "../../../../build/src/nix-vector-routing/examples/ns3.37-nix-simple-multi-address-optimized.pdb"
   "CMakeFiles/nix-simple-multi-address.dir/nix-simple-multi-address.cc.o"
   "CMakeFiles/nix-simple-multi-address.dir/nix-simple-multi-address.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/netanim/examples/ns3.37-resources-counters-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/netanim/examples/ns3.37-resources-counters-debug.pdb"
+  "../../../../build/src/netanim/examples/ns3.37-resources-counters-optimized"
+  "../../../../build/src/netanim/examples/ns3.37-resources-counters-optimized.pdb"
   "CMakeFiles/resources-counters.dir/resources-counters.cc.o"
   "CMakeFiles/resources-counters.dir/resources-counters.cc.o.d"
 )

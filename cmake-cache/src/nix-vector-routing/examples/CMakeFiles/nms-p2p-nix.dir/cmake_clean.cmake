@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/nix-vector-routing/examples/ns3.37-nms-p2p-nix-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/nix-vector-routing/examples/ns3.37-nms-p2p-nix-debug.pdb"
+  "../../../../build/src/nix-vector-routing/examples/ns3.37-nms-p2p-nix-optimized"
+  "../../../../build/src/nix-vector-routing/examples/ns3.37-nms-p2p-nix-optimized.pdb"
   "CMakeFiles/nms-p2p-nix.dir/nms-p2p-nix.cc.o"
   "CMakeFiles/nms-p2p-nix.dir/nms-p2p-nix.cc.o.d"
 )

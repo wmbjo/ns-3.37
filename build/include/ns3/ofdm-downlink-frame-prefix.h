@@ -1,1 +1,1 @@
-#include "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/ofdm-downlink-frame-prefix.h"
+#include "/Users/william/Documents/ns-3.37/src/wimax/model/ofdm-downlink-frame-prefix.h"

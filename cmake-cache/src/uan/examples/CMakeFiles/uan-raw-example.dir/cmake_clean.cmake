@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/uan/examples/ns3.37-uan-raw-example-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/uan/examples/ns3.37-uan-raw-example-debug.pdb"
+  "../../../../build/src/uan/examples/ns3.37-uan-raw-example-optimized"
+  "../../../../build/src/uan/examples/ns3.37-uan-raw-example-optimized.pdb"
   "CMakeFiles/uan-raw-example.dir/uan-raw-example.cc.o"
   "CMakeFiles/uan-raw-example.dir/uan-raw-example.cc.o.d"
 )

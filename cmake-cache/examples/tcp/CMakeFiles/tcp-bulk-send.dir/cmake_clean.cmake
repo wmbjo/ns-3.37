@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/tcp/ns3.37-tcp-bulk-send-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/tcp/ns3.37-tcp-bulk-send-debug.pdb"
+  "../../../build/examples/tcp/ns3.37-tcp-bulk-send-optimized"
+  "../../../build/examples/tcp/ns3.37-tcp-bulk-send-optimized.pdb"
   "CMakeFiles/tcp-bulk-send.dir/tcp-bulk-send.cc.o"
   "CMakeFiles/tcp-bulk-send.dir/tcp-bulk-send.cc.o.d"
 )

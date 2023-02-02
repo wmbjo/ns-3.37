@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-aggregation-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-aggregation-debug.pdb"
+  "../../../build/examples/wireless/ns3.37-wifi-aggregation-optimized"
+  "../../../build/examples/wireless/ns3.37-wifi-aggregation-optimized.pdb"
   "CMakeFiles/wifi-aggregation.dir/wifi-aggregation.cc.o"
   "CMakeFiles/wifi-aggregation.dir/wifi-aggregation.cc.o.d"
 )

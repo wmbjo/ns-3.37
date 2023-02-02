@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/udp/ns3.37-udp-echo-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/udp/ns3.37-udp-echo-debug.pdb"
+  "../../../build/examples/udp/ns3.37-udp-echo-optimized"
+  "../../../build/examples/udp/ns3.37-udp-echo-optimized.pdb"
   "CMakeFiles/udp-echo.dir/udp-echo.cc.o"
   "CMakeFiles/udp-echo.dir/udp-echo.cc.o.d"
 )

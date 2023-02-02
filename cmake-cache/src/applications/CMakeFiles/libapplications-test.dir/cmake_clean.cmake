@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-applications-test-debug.dylib"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-applications-test-debug.pdb"
+  "../../../build/lib/libns3.37-applications-test-optimized.dylib"
+  "../../../build/lib/libns3.37-applications-test-optimized.pdb"
   "CMakeFiles/libapplications-test.dir/test/bulk-send-application-test-suite.cc.o"
   "CMakeFiles/libapplications-test.dir/test/bulk-send-application-test-suite.cc.o.d"
   "CMakeFiles/libapplications-test.dir/test/three-gpp-http-client-server-test.cc.o"

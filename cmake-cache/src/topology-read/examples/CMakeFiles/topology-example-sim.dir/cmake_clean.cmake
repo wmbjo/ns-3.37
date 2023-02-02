@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/topology-read/examples/ns3.37-topology-example-sim-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/topology-read/examples/ns3.37-topology-example-sim-debug.pdb"
+  "../../../../build/src/topology-read/examples/ns3.37-topology-example-sim-optimized"
+  "../../../../build/src/topology-read/examples/ns3.37-topology-example-sim-optimized.pdb"
   "CMakeFiles/topology-example-sim.dir/topology-example-sim.cc.o"
   "CMakeFiles/topology-example-sim.dir/topology-example-sim.cc.o.d"
 )

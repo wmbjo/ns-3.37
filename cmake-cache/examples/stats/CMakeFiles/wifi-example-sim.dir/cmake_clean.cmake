@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/stats/ns3.37-wifi-example-sim-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/stats/ns3.37-wifi-example-sim-debug.pdb"
+  "../../../build/examples/stats/ns3.37-wifi-example-sim-optimized"
+  "../../../build/examples/stats/ns3.37-wifi-example-sim-optimized.pdb"
   "CMakeFiles/wifi-example-sim.dir/wifi-example-apps.cc.o"
   "CMakeFiles/wifi-example-sim.dir/wifi-example-apps.cc.o.d"
   "CMakeFiles/wifi-example-sim.dir/wifi-example-sim.cc.o"

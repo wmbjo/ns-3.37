@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/ipv6/ns3.37-icmpv6-redirect-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/ipv6/ns3.37-icmpv6-redirect-debug.pdb"
+  "../../../build/examples/ipv6/ns3.37-icmpv6-redirect-optimized"
+  "../../../build/examples/ipv6/ns3.37-icmpv6-redirect-optimized.pdb"
   "CMakeFiles/icmpv6-redirect.dir/icmpv6-redirect.cc.o"
   "CMakeFiles/icmpv6-redirect.dir/icmpv6-redirect.cc.o.d"
 )

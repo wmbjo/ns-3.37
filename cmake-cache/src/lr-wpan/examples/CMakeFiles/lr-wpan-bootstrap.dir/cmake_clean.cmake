@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lr-wpan/examples/ns3.37-lr-wpan-bootstrap-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lr-wpan/examples/ns3.37-lr-wpan-bootstrap-debug.pdb"
+  "../../../../build/src/lr-wpan/examples/ns3.37-lr-wpan-bootstrap-optimized"
+  "../../../../build/src/lr-wpan/examples/ns3.37-lr-wpan-bootstrap-optimized.pdb"
   "CMakeFiles/lr-wpan-bootstrap.dir/lr-wpan-bootstrap.cc.o"
   "CMakeFiles/lr-wpan-bootstrap.dir/lr-wpan-bootstrap.cc.o.d"
 )

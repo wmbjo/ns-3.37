@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/core/examples/ns3.37-empirical-random-variable-example-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/core/examples/ns3.37-empirical-random-variable-example-debug.pdb"
+  "../../../../build/src/core/examples/ns3.37-empirical-random-variable-example-optimized"
+  "../../../../build/src/core/examples/ns3.37-empirical-random-variable-example-optimized.pdb"
   "CMakeFiles/empirical-random-variable-example.dir/empirical-random-variable-example.cc.o"
   "CMakeFiles/empirical-random-variable-example.dir/empirical-random-variable-example.cc.o.d"
 )

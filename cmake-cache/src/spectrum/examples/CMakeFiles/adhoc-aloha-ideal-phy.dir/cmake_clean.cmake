@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/spectrum/examples/ns3.37-adhoc-aloha-ideal-phy-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/spectrum/examples/ns3.37-adhoc-aloha-ideal-phy-debug.pdb"
+  "../../../../build/src/spectrum/examples/ns3.37-adhoc-aloha-ideal-phy-optimized"
+  "../../../../build/src/spectrum/examples/ns3.37-adhoc-aloha-ideal-phy-optimized.pdb"
   "CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o"
   "CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy.cc.o.d"
 )

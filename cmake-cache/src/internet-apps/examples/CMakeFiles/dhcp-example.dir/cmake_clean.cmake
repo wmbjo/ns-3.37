@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/internet-apps/examples/ns3.37-dhcp-example-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/internet-apps/examples/ns3.37-dhcp-example-debug.pdb"
+  "../../../../build/src/internet-apps/examples/ns3.37-dhcp-example-optimized"
+  "../../../../build/src/internet-apps/examples/ns3.37-dhcp-example-optimized.pdb"
   "CMakeFiles/dhcp-example.dir/dhcp-example.cc.o"
   "CMakeFiles/dhcp-example.dir/dhcp-example.cc.o.d"
 )

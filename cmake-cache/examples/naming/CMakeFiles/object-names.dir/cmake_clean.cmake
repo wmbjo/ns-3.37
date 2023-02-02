@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/naming/ns3.37-object-names-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/naming/ns3.37-object-names-debug.pdb"
+  "../../../build/examples/naming/ns3.37-object-names-optimized"
+  "../../../build/examples/naming/ns3.37-object-names-optimized.pdb"
   "CMakeFiles/object-names.dir/object-names.cc.o"
   "CMakeFiles/object-names.dir/object-names.cc.o.d"
 )

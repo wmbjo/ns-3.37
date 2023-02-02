@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lte/examples/ns3.37-lena-cc-helper-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lte/examples/ns3.37-lena-cc-helper-debug.pdb"
+  "../../../../build/src/lte/examples/ns3.37-lena-cc-helper-optimized"
+  "../../../../build/src/lte/examples/ns3.37-lena-cc-helper-optimized.pdb"
   "CMakeFiles/lena-cc-helper.dir/lena-cc-helper.cc.o"
   "CMakeFiles/lena-cc-helper.dir/lena-cc-helper.cc.o.d"
 )

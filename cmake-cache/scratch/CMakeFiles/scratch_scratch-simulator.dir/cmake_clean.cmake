@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/scratch/ns3.37-scratch-simulator-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/scratch/ns3.37-scratch-simulator-debug.pdb"
+  "../../build/scratch/ns3.37-scratch-simulator-optimized"
+  "../../build/scratch/ns3.37-scratch-simulator-optimized.pdb"
   "CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o"
   "CMakeFiles/scratch_scratch-simulator.dir/scratch-simulator.cc.o.d"
 )

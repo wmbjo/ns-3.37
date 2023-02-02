@@ -1,67 +1,43 @@
-Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
-xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
-xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
-xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
-xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-Detecting CXX compiler ABI info failed to compile with the following output:
-Change Dir: /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-SDdHxp
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_886b0/fast && xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
 
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
 
-
-Determining if the C++ compiler works failed with the following output:
-Change Dir: /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-Xr0SQy
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_9977e/fast && xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-
-
-
-Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
-xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
-xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
-xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
-xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-Detecting CXX compiler ABI info failed to compile with the following output:
-Change Dir: /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-QEZhU1
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_10235/fast && xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-
-
-
-
-Determining if the C++ compiler works failed with the following output:
-Change Dir: /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-REVPmy
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_5103a/fast && xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
 
 Performing C++ SOURCE FILE Test MISSING_OSTREAM_NULLPTR_OPERATOR failed with the following output:
-Change Dir: /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CPqsDR
+Change Dir: /Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_af0b6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_af0b6.dir/build.make CMakeFiles/cmTC_af0b6.dir/build
-Building CXX object CMakeFiles/cmTC_af0b6.dir/src.cxx.o
-/usr/bin/c++ -DMISSING_OSTREAM_NULLPTR_OPERATOR  -arch arm64 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_af0b6.dir/src.cxx.o -MF CMakeFiles/cmTC_af0b6.dir/src.cxx.o.d -o CMakeFiles/cmTC_af0b6.dir/src.cxx.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CPqsDR/src.cxx
-/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CPqsDR/src.cxx:11:12: error: use of overloaded operator '<<' is ambiguous (with operand types 'std::ostream' (aka 'basic_ostream<char>') and 'std::nullptr_t')
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eff9d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_eff9d.dir/build.make CMakeFiles/cmTC_eff9d.dir/build
+Building CXX object CMakeFiles/cmTC_eff9d.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMISSING_OSTREAM_NULLPTR_OPERATOR  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_eff9d.dir/src.cxx.o -MF CMakeFiles/cmTC_eff9d.dir/src.cxx.o.d -o CMakeFiles/cmTC_eff9d.dir/src.cxx.o -c /Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp/src.cxx
+/Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp/src.cxx:11:12: error: use of overloaded operator '<<' is ambiguous (with operand types 'std::ostream' (aka 'basic_ostream<char>') and 'std::nullptr_t')
         os << std::nullptr_t();
         ~~ ^  ~~~~~~~~~~~~~~~~
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:216:20: note: candidate function
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream:216:20: note: candidate function
     basic_ostream& operator<<(nullptr_t)
                    ^
-/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-CPqsDR/src.cxx:4:26: note: candidate function
+/Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp/src.cxx:4:26: note: candidate function
     inline std::ostream& operator << (std::ostream& os, std::nullptr_t ptr)
                          ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_af0b6.dir/src.cxx.o] Error 1
-make: *** [cmTC_af0b6/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_eff9d.dir/src.cxx.o] Error 1
+make: *** [cmTC_eff9d/fast] Error 2
 
 
 Source file was:
@@ -79,25 +55,24 @@ Source file was:
         return 0;
     }
     
-
 Performing C++ SOURCE FILE Test HAVE_UINT128_T failed with the following output:
-Change Dir: /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ScWU4o
+Change Dir: /Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_3e67b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3e67b.dir/build.make CMakeFiles/cmTC_3e67b.dir/build
-Building CXX object CMakeFiles/cmTC_3e67b.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_UINT128_T  -arch arm64 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_3e67b.dir/src.cxx.o -MF CMakeFiles/cmTC_3e67b.dir/src.cxx.o.d -o CMakeFiles/cmTC_3e67b.dir/src.cxx.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ScWU4o/src.cxx
-/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ScWU4o/src.cxx:5:18: error: use of undeclared identifier 'uint128_t'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3a19b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3a19b.dir/build.make CMakeFiles/cmTC_3a19b.dir/build
+Building CXX object CMakeFiles/cmTC_3a19b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_UINT128_T  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_3a19b.dir/src.cxx.o -MF CMakeFiles/cmTC_3a19b.dir/src.cxx.o.d -o CMakeFiles/cmTC_3a19b.dir/src.cxx.o -c /Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp/src.cxx
+/Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp/src.cxx:5:18: error: use of undeclared identifier 'uint128_t'
             if ((uint128_t *) 0) return 0;
                  ^
-/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ScWU4o/src.cxx:5:29: error: expected expression
+/Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp/src.cxx:5:29: error: expected expression
             if ((uint128_t *) 0) return 0;
                             ^
-/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ScWU4o/src.cxx:6:25: error: use of undeclared identifier 'uint128_t'
+/Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp/src.cxx:6:25: error: use of undeclared identifier 'uint128_t'
             if (sizeof (uint128_t)) return 0;
                         ^
 3 errors generated.
-make[1]: *** [CMakeFiles/cmTC_3e67b.dir/src.cxx.o] Error 1
-make: *** [cmTC_3e67b/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_3a19b.dir/src.cxx.o] Error 1
+make: *** [cmTC_3a19b/fast] Error 2
 
 
 Source file was:
@@ -109,34 +84,33 @@ Source file was:
             if (sizeof (uint128_t)) return 0;
             return 1;
          }
-
 Determining if the include file netpacket/packet.h exists failed with the following output:
-Change Dir: /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-7kBiSC
+Change Dir: /Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_f6435/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f6435.dir/build.make CMakeFiles/cmTC_f6435.dir/build
-Building C object CMakeFiles/cmTC_f6435.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -arch arm64 -fPIE -MD -MT CMakeFiles/cmTC_f6435.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f6435.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f6435.dir/CheckIncludeFile.c.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-7kBiSC/CheckIncludeFile.c
-/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-7kBiSC/CheckIncludeFile.c:1:10: fatal error: 'netpacket/packet.h' file not found
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c99b8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c99b8.dir/build.make CMakeFiles/cmTC_c99b8.dir/build
+Building C object CMakeFiles/cmTC_c99b8.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_c99b8.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c99b8.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c99b8.dir/CheckIncludeFile.c.o -c /Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'netpacket/packet.h' file not found
 #include <netpacket/packet.h>
          ^~~~~~~~~~~~~~~~~~~~
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_f6435.dir/CheckIncludeFile.c.o] Error 1
-make: *** [cmTC_f6435/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_c99b8.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_c99b8/fast] Error 2
 
 
 
 Determining if files boost/units/quantity.hpp;boost/units/systems/si.hpp exist failed with the following output:
-Change Dir: /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-lwjYG1
+Change Dir: /Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_dd4a9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dd4a9.dir/build.make CMakeFiles/cmTC_dd4a9.dir/build
-Building CXX object CMakeFiles/cmTC_dd4a9.dir/HAVE_BOOST_UNITS.cpp.o
-/usr/bin/c++   -arch arm64 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_dd4a9.dir/HAVE_BOOST_UNITS.cpp.o -MF CMakeFiles/cmTC_dd4a9.dir/HAVE_BOOST_UNITS.cpp.o.d -o CMakeFiles/cmTC_dd4a9.dir/HAVE_BOOST_UNITS.cpp.o -c /Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-lwjYG1/HAVE_BOOST_UNITS.cpp
-/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-lwjYG1/HAVE_BOOST_UNITS.cpp:2:10: fatal error: 'boost/units/quantity.hpp' file not found
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a757e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a757e.dir/build.make CMakeFiles/cmTC_a757e.dir/build
+Building CXX object CMakeFiles/cmTC_a757e.dir/HAVE_BOOST_UNITS.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_a757e.dir/HAVE_BOOST_UNITS.cpp.o -MF CMakeFiles/cmTC_a757e.dir/HAVE_BOOST_UNITS.cpp.o.d -o CMakeFiles/cmTC_a757e.dir/HAVE_BOOST_UNITS.cpp.o -c /Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CheckIncludeFiles/HAVE_BOOST_UNITS.cpp
+/Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/CheckIncludeFiles/HAVE_BOOST_UNITS.cpp:2:10: fatal error: 'boost/units/quantity.hpp' file not found
 #include <boost/units/quantity.hpp>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_dd4a9.dir/HAVE_BOOST_UNITS.cpp.o] Error 1
-make: *** [cmTC_dd4a9/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_a757e.dir/HAVE_BOOST_UNITS.cpp.o] Error 1
+make: *** [cmTC_a757e/fast] Error 2
 
 
 Source:

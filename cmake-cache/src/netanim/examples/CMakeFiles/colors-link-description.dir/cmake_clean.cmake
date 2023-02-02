@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/netanim/examples/ns3.37-colors-link-description-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/netanim/examples/ns3.37-colors-link-description-debug.pdb"
+  "../../../../build/src/netanim/examples/ns3.37-colors-link-description-optimized"
+  "../../../../build/src/netanim/examples/ns3.37-colors-link-description-optimized.pdb"
   "CMakeFiles/colors-link-description.dir/colors-link-description.cc.o"
   "CMakeFiles/colors-link-description.dir/colors-link-description.cc.o.d"
 )

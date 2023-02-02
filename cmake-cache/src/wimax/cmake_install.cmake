@@ -1,4 +1,4 @@
-# Install script for directory: /Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax
+# Install script for directory: /Users/william/Documents/ns-3.37/src/wimax
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -34,78 +34,78 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-wimax-debug.dylib")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wimax-debug.dylib" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wimax-debug.dylib")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/william/Documents/ns-3.37/build/lib/libns3.37-wimax-optimized.dylib")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wimax-optimized.dylib" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wimax-optimized.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wimax-debug.dylib")
+      -delete_rpath "/Users/william/Documents/ns-3.37/build/lib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wimax-optimized.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wimax-debug.dylib")
+      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wimax-optimized.dylib")
     endif()
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ns3" TYPE FILE FILES
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/helper/wimax-helper.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/wimax-channel.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/wimax-net-device.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/bs-net-device.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/ss-net-device.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/cid.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/cid-factory.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/ofdm-downlink-frame-prefix.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/wimax-connection.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/ss-record.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/mac-messages.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/dl-mac-messages.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/ul-mac-messages.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/wimax-phy.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/simple-ofdm-wimax-phy.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/simple-ofdm-wimax-channel.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/send-params.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/service-flow.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/ss-manager.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/connection-manager.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/wimax-mac-header.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/wimax-mac-queue.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/crc8.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/service-flow-manager.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/bs-uplink-scheduler.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/bs-uplink-scheduler-simple.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/bs-uplink-scheduler-mbqos.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/bs-uplink-scheduler-rtps.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/ul-job.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/bs-scheduler.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/bs-scheduler-simple.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/bs-scheduler-rtps.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/service-flow-record.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/snr-to-block-error-rate-record.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/snr-to-block-error-rate-manager.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/simple-ofdm-send-param.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/ss-service-flow-manager.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/bs-service-flow-manager.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/cs-parameters.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/ipcs-classifier-record.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/wimax-tlv.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/ipcs-classifier.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/bvec.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/wimax-mac-to-mac-header.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/wimax-module.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/helper/wimax-helper.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/wimax-channel.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/wimax-net-device.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/bs-net-device.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/ss-net-device.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/cid.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/cid-factory.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/ofdm-downlink-frame-prefix.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/wimax-connection.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/ss-record.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/mac-messages.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/dl-mac-messages.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/ul-mac-messages.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/wimax-phy.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/simple-ofdm-wimax-phy.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/simple-ofdm-wimax-channel.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/send-params.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/service-flow.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/ss-manager.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/connection-manager.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/wimax-mac-header.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/wimax-mac-queue.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/crc8.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/service-flow-manager.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/bs-uplink-scheduler.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/bs-uplink-scheduler-simple.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/bs-uplink-scheduler-mbqos.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/bs-uplink-scheduler-rtps.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/ul-job.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/bs-scheduler.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/bs-scheduler-simple.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/bs-scheduler-rtps.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/service-flow-record.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/snr-to-block-error-rate-record.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/snr-to-block-error-rate-manager.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/simple-ofdm-send-param.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/ss-service-flow-manager.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/bs-service-flow-manager.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/cs-parameters.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/ipcs-classifier-record.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/wimax-tlv.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/ipcs-classifier.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/bvec.h"
+    "/Users/william/Documents/ns-3.37/src/wimax/model/wimax-mac-to-mac-header.h"
+    "/Users/william/Documents/ns-3.37/build/include/ns3/wimax-module.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/src/wimax/examples/cmake_install.cmake")
+  include("/Users/william/Documents/ns-3.37/cmake-cache/src/wimax/examples/cmake_install.cmake")
 
 endif()
 

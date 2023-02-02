@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/channel-models/ns3.37-three-gpp-v2v-channel-example-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/channel-models/ns3.37-three-gpp-v2v-channel-example-debug.pdb"
+  "../../../build/examples/channel-models/ns3.37-three-gpp-v2v-channel-example-optimized"
+  "../../../build/examples/channel-models/ns3.37-three-gpp-v2v-channel-example-optimized.pdb"
   "CMakeFiles/three-gpp-v2v-channel-example.dir/three-gpp-v2v-channel-example.cc.o"
   "CMakeFiles/three-gpp-v2v-channel-example.dir/three-gpp-v2v-channel-example.cc.o.d"
 )

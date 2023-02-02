@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/routing/ns3.37-ripng-simple-network-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/routing/ns3.37-ripng-simple-network-debug.pdb"
+  "../../../build/examples/routing/ns3.37-ripng-simple-network-optimized"
+  "../../../build/examples/routing/ns3.37-ripng-simple-network-optimized.pdb"
   "CMakeFiles/ripng-simple-network.dir/ripng-simple-network.cc.o"
   "CMakeFiles/ripng-simple-network.dir/ripng-simple-network.cc.o.d"
 )

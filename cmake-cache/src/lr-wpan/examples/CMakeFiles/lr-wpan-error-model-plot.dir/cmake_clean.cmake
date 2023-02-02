@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lr-wpan/examples/ns3.37-lr-wpan-error-model-plot-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lr-wpan/examples/ns3.37-lr-wpan-error-model-plot-debug.pdb"
+  "../../../../build/src/lr-wpan/examples/ns3.37-lr-wpan-error-model-plot-optimized"
+  "../../../../build/src/lr-wpan/examples/ns3.37-lr-wpan-error-model-plot-optimized.pdb"
   "CMakeFiles/lr-wpan-error-model-plot.dir/lr-wpan-error-model-plot.cc.o"
   "CMakeFiles/lr-wpan-error-model-plot.dir/lr-wpan-error-model-plot.cc.o.d"
 )

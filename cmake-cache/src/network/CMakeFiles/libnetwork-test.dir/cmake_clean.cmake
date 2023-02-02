@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-network-test-debug.dylib"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-network-test-debug.pdb"
+  "../../../build/lib/libns3.37-network-test-optimized.dylib"
+  "../../../build/lib/libns3.37-network-test-optimized.pdb"
   "CMakeFiles/libnetwork-test.dir/test/bit-serializer-test.cc.o"
   "CMakeFiles/libnetwork-test.dir/test/bit-serializer-test.cc.o.d"
   "CMakeFiles/libnetwork-test.dir/test/buffer-test.cc.o"

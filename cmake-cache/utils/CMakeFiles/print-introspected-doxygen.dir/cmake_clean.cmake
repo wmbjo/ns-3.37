@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/utils/ns3.37-print-introspected-doxygen-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/utils/ns3.37-print-introspected-doxygen-debug.pdb"
+  "../../build/utils/ns3.37-print-introspected-doxygen-optimized"
+  "../../build/utils/ns3.37-print-introspected-doxygen-optimized.pdb"
   "CMakeFiles/print-introspected-doxygen.dir/print-introspected-doxygen.cc.o"
   "CMakeFiles/print-introspected-doxygen.dir/print-introspected-doxygen.cc.o.d"
 )

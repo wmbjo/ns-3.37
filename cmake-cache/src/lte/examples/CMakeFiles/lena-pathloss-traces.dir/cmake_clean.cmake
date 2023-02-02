@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lte/examples/ns3.37-lena-pathloss-traces-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lte/examples/ns3.37-lena-pathloss-traces-debug.pdb"
+  "../../../../build/src/lte/examples/ns3.37-lena-pathloss-traces-optimized"
+  "../../../../build/src/lte/examples/ns3.37-lena-pathloss-traces-optimized.pdb"
   "CMakeFiles/lena-pathloss-traces.dir/lena-pathloss-traces.cc.o"
   "CMakeFiles/lena-pathloss-traces.dir/lena-pathloss-traces.cc.o.d"
 )

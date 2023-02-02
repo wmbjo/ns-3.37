@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-ofdm-validation-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-ofdm-validation-debug.pdb"
+  "../../../build/examples/wireless/ns3.37-wifi-ofdm-validation-optimized"
+  "../../../build/examples/wireless/ns3.37-wifi-ofdm-validation-optimized.pdb"
   "CMakeFiles/wifi-ofdm-validation.dir/wifi-ofdm-validation.cc.o"
   "CMakeFiles/wifi-ofdm-validation.dir/wifi-ofdm-validation.cc.o.d"
 )

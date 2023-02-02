@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/internet/examples/ns3.37-neighbor-cache-example-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/internet/examples/ns3.37-neighbor-cache-example-debug.pdb"
+  "../../../../build/src/internet/examples/ns3.37-neighbor-cache-example-optimized"
+  "../../../../build/src/internet/examples/ns3.37-neighbor-cache-example-optimized.pdb"
   "CMakeFiles/neighbor-cache-example.dir/neighbor-cache-example.cc.o"
   "CMakeFiles/neighbor-cache-example.dir/neighbor-cache-example.cc.o.d"
 )

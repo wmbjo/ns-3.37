@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-nix-vector-routing-debug.dylib"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-nix-vector-routing-debug.pdb"
+  "../../../build/lib/libns3.37-nix-vector-routing-optimized.dylib"
+  "../../../build/lib/libns3.37-nix-vector-routing-optimized.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

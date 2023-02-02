@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lte/examples/ns3.37-lena-x2-handover-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lte/examples/ns3.37-lena-x2-handover-debug.pdb"
+  "../../../../build/src/lte/examples/ns3.37-lena-x2-handover-optimized"
+  "../../../../build/src/lte/examples/ns3.37-lena-x2-handover-optimized.pdb"
   "CMakeFiles/lena-x2-handover.dir/lena-x2-handover.cc.o"
   "CMakeFiles/lena-x2-handover.dir/lena-x2-handover.cc.o.d"
 )

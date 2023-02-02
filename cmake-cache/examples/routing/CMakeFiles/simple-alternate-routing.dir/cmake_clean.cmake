@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/routing/ns3.37-simple-alternate-routing-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/routing/ns3.37-simple-alternate-routing-debug.pdb"
+  "../../../build/examples/routing/ns3.37-simple-alternate-routing-optimized"
+  "../../../build/examples/routing/ns3.37-simple-alternate-routing-optimized.pdb"
   "CMakeFiles/simple-alternate-routing.dir/simple-alternate-routing.cc.o"
   "CMakeFiles/simple-alternate-routing.dir/simple-alternate-routing.cc.o.d"
 )

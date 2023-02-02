@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/mobility/examples/ns3.37-reference-point-group-mobility-example-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/mobility/examples/ns3.37-reference-point-group-mobility-example-debug.pdb"
+  "../../../../build/src/mobility/examples/ns3.37-reference-point-group-mobility-example-optimized"
+  "../../../../build/src/mobility/examples/ns3.37-reference-point-group-mobility-example-optimized.pdb"
   "CMakeFiles/reference-point-group-mobility-example.dir/reference-point-group-mobility-example.cc.o"
   "CMakeFiles/reference-point-group-mobility-example.dir/reference-point-group-mobility-example.cc.o.d"
 )

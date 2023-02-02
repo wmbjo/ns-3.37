@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/spectrum/examples/ns3.37-tv-trans-regional-example-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/spectrum/examples/ns3.37-tv-trans-regional-example-debug.pdb"
+  "../../../../build/src/spectrum/examples/ns3.37-tv-trans-regional-example-optimized"
+  "../../../../build/src/spectrum/examples/ns3.37-tv-trans-regional-example-optimized.pdb"
   "CMakeFiles/tv-trans-regional-example.dir/tv-trans-regional-example.cc.o"
   "CMakeFiles/tv-trans-regional-example.dir/tv-trans-regional-example.cc.o.d"
 )

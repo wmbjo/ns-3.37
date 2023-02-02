@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-adhoc-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-adhoc-debug.pdb"
+  "../../../build/examples/wireless/ns3.37-wifi-adhoc-optimized"
+  "../../../build/examples/wireless/ns3.37-wifi-adhoc-optimized.pdb"
   "CMakeFiles/wifi-adhoc.dir/wifi-adhoc.cc.o"
   "CMakeFiles/wifi-adhoc.dir/wifi-adhoc.cc.o.d"
 )

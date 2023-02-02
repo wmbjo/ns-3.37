@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/uan/examples/ns3.37-uan-ipv6-example-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/uan/examples/ns3.37-uan-ipv6-example-debug.pdb"
+  "../../../../build/src/uan/examples/ns3.37-uan-ipv6-example-optimized"
+  "../../../../build/src/uan/examples/ns3.37-uan-ipv6-example-optimized.pdb"
   "CMakeFiles/uan-ipv6-example.dir/uan-ipv6-example.cc.o"
   "CMakeFiles/uan-ipv6-example.dir/uan-ipv6-example.cc.o.d"
 )

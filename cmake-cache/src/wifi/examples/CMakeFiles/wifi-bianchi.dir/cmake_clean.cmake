@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/wifi/examples/ns3.37-wifi-bianchi-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/wifi/examples/ns3.37-wifi-bianchi-debug.pdb"
+  "../../../../build/src/wifi/examples/ns3.37-wifi-bianchi-optimized"
+  "../../../../build/src/wifi/examples/ns3.37-wifi-bianchi-optimized.pdb"
   "CMakeFiles/wifi-bianchi.dir/wifi-bianchi.cc.o"
   "CMakeFiles/wifi-bianchi.dir/wifi-bianchi.cc.o.d"
 )

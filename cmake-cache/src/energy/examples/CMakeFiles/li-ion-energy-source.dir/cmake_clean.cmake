@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/energy/examples/ns3.37-li-ion-energy-source-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/energy/examples/ns3.37-li-ion-energy-source-debug.pdb"
+  "../../../../build/src/energy/examples/ns3.37-li-ion-energy-source-optimized"
+  "../../../../build/src/energy/examples/ns3.37-li-ion-energy-source-optimized.pdb"
   "CMakeFiles/li-ion-energy-source.dir/li-ion-energy-source.cc.o"
   "CMakeFiles/li-ion-energy-source.dir/li-ion-energy-source.cc.o.d"
 )

@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/core/examples/fatal-example.cc" "src/core/examples/CMakeFiles/fatal-example.dir/fatal-example.cc.o" "gcc" "src/core/examples/CMakeFiles/fatal-example.dir/fatal-example.cc.o.d"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch_arm64.hxx" "src/core/examples/CMakeFiles/fatal-example.dir/fatal-example.cc.o" "gcc" "src/core/examples/CMakeFiles/fatal-example.dir/fatal-example.cc.o.d"
+  "/Users/william/Documents/ns-3.37/src/core/examples/fatal-example.cc" "src/core/examples/CMakeFiles/fatal-example.dir/fatal-example.cc.o" "gcc" "src/core/examples/CMakeFiles/fatal-example.dir/fatal-example.cc.o.d"
+  "/Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch_arm64.hxx" "src/core/examples/CMakeFiles/fatal-example.dir/fatal-example.cc.o" "gcc" "src/core/examples/CMakeFiles/fatal-example.dir/fatal-example.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/src/core/CMakeFiles/libcore.dir/DependInfo.cmake"
+  "/Users/william/Documents/ns-3.37/cmake-cache/src/core/CMakeFiles/libcore.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

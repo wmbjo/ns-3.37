@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-mixed-network-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-mixed-network-debug.pdb"
+  "../../../build/examples/wireless/ns3.37-wifi-mixed-network-optimized"
+  "../../../build/examples/wireless/ns3.37-wifi-mixed-network-optimized.pdb"
   "CMakeFiles/wifi-mixed-network.dir/wifi-mixed-network.cc.o"
   "CMakeFiles/wifi-mixed-network.dir/wifi-mixed-network.cc.o.d"
 )

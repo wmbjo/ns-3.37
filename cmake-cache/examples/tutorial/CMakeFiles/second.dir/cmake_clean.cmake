@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/tutorial/ns3.37-second-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/tutorial/ns3.37-second-debug.pdb"
+  "../../../build/examples/tutorial/ns3.37-second-optimized"
+  "../../../build/examples/tutorial/ns3.37-second-optimized.pdb"
   "CMakeFiles/second.dir/second.cc.o"
   "CMakeFiles/second.dir/second.cc.o.d"
 )

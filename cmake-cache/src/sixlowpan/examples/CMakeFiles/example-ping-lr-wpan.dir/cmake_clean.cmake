@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/sixlowpan/examples/ns3.37-example-ping-lr-wpan-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/sixlowpan/examples/ns3.37-example-ping-lr-wpan-debug.pdb"
+  "../../../../build/src/sixlowpan/examples/ns3.37-example-ping-lr-wpan-optimized"
+  "../../../../build/src/sixlowpan/examples/ns3.37-example-ping-lr-wpan-optimized.pdb"
   "CMakeFiles/example-ping-lr-wpan.dir/example-ping-lr-wpan.cc.o"
   "CMakeFiles/example-ping-lr-wpan.dir/example-ping-lr-wpan.cc.o.d"
 )

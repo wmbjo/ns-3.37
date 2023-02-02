@@ -8,19 +8,19 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/propagation/examples/main-propagation-loss.cc" "src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o" "gcc" "src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o.d"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch_arm64.hxx" "src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o" "gcc" "src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o.d"
+  "/Users/william/Documents/ns-3.37/src/propagation/examples/main-propagation-loss.cc" "src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o" "gcc" "src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o.d"
+  "/Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch_arm64.hxx" "src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o" "gcc" "src/propagation/examples/CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/src/config-store/CMakeFiles/libconfig-store.dir/DependInfo.cmake"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/src/buildings/CMakeFiles/libbuildings.dir/DependInfo.cmake"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/src/propagation/CMakeFiles/libpropagation.dir/DependInfo.cmake"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/src/mobility/CMakeFiles/libmobility.dir/DependInfo.cmake"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/src/network/CMakeFiles/libnetwork.dir/DependInfo.cmake"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/src/stats/CMakeFiles/libstats.dir/DependInfo.cmake"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/src/core/CMakeFiles/libcore.dir/DependInfo.cmake"
+  "/Users/william/Documents/ns-3.37/cmake-cache/src/config-store/CMakeFiles/libconfig-store.dir/DependInfo.cmake"
+  "/Users/william/Documents/ns-3.37/cmake-cache/src/buildings/CMakeFiles/libbuildings.dir/DependInfo.cmake"
+  "/Users/william/Documents/ns-3.37/cmake-cache/src/propagation/CMakeFiles/libpropagation.dir/DependInfo.cmake"
+  "/Users/william/Documents/ns-3.37/cmake-cache/src/mobility/CMakeFiles/libmobility.dir/DependInfo.cmake"
+  "/Users/william/Documents/ns-3.37/cmake-cache/src/network/CMakeFiles/libnetwork.dir/DependInfo.cmake"
+  "/Users/william/Documents/ns-3.37/cmake-cache/src/stats/CMakeFiles/libstats.dir/DependInfo.cmake"
+  "/Users/william/Documents/ns-3.37/cmake-cache/src/core/CMakeFiles/libcore.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

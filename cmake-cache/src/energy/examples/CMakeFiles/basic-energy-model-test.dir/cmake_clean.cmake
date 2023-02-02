@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/energy/examples/ns3.37-basic-energy-model-test-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/energy/examples/ns3.37-basic-energy-model-test-debug.pdb"
+  "../../../../build/src/energy/examples/ns3.37-basic-energy-model-test-optimized"
+  "../../../../build/src/energy/examples/ns3.37-basic-energy-model-test-optimized.pdb"
   "CMakeFiles/basic-energy-model-test.dir/basic-energy-model-test.cc.o"
   "CMakeFiles/basic-energy-model-test.dir/basic-energy-model-test.cc.o.d"
 )

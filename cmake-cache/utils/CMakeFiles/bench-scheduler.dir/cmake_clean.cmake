@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/utils/ns3.37-bench-scheduler-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/utils/ns3.37-bench-scheduler-debug.pdb"
+  "../../build/utils/ns3.37-bench-scheduler-optimized"
+  "../../build/utils/ns3.37-bench-scheduler-optimized.pdb"
   "CMakeFiles/bench-scheduler.dir/bench-scheduler.cc.o"
   "CMakeFiles/bench-scheduler.dir/bench-scheduler.cc.o.d"
 )

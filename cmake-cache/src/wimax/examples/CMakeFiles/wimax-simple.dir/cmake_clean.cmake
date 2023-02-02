@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/wimax/examples/ns3.37-wimax-simple-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/wimax/examples/ns3.37-wimax-simple-debug.pdb"
+  "../../../../build/src/wimax/examples/ns3.37-wimax-simple-optimized"
+  "../../../../build/src/wimax/examples/ns3.37-wimax-simple-optimized.pdb"
   "CMakeFiles/wimax-simple.dir/wimax-simple.cc.o"
   "CMakeFiles/wimax-simple.dir/wimax-simple.cc.o.d"
 )

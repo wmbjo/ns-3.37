@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/routing/ns3.37-manet-routing-compare-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/routing/ns3.37-manet-routing-compare-debug.pdb"
+  "../../../build/examples/routing/ns3.37-manet-routing-compare-optimized"
+  "../../../build/examples/routing/ns3.37-manet-routing-compare-optimized.pdb"
   "CMakeFiles/manet-routing-compare.dir/manet-routing-compare.cc.o"
   "CMakeFiles/manet-routing-compare.dir/manet-routing-compare.cc.o.d"
 )

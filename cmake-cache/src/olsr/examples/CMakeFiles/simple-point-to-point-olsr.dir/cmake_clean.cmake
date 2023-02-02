@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/olsr/examples/ns3.37-simple-point-to-point-olsr-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/olsr/examples/ns3.37-simple-point-to-point-olsr-debug.pdb"
+  "../../../../build/src/olsr/examples/ns3.37-simple-point-to-point-olsr-optimized"
+  "../../../../build/src/olsr/examples/ns3.37-simple-point-to-point-olsr-optimized.pdb"
   "CMakeFiles/simple-point-to-point-olsr.dir/simple-point-to-point-olsr.cc.o"
   "CMakeFiles/simple-point-to-point-olsr.dir/simple-point-to-point-olsr.cc.o.d"
 )

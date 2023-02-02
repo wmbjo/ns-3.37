@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/mesh/examples/ns3.37-mesh-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/mesh/examples/ns3.37-mesh-debug.pdb"
+  "../../../../build/src/mesh/examples/ns3.37-mesh-optimized"
+  "../../../../build/src/mesh/examples/ns3.37-mesh-optimized.pdb"
   "CMakeFiles/mesh.dir/mesh.cc.o"
   "CMakeFiles/mesh.dir/mesh.cc.o.d"
 )

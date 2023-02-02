@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/core/examples/ns3.37-sample-simulator-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/core/examples/ns3.37-sample-simulator-debug.pdb"
+  "../../../../build/src/core/examples/ns3.37-sample-simulator-optimized"
+  "../../../../build/src/core/examples/ns3.37-sample-simulator-optimized.pdb"
   "CMakeFiles/sample-simulator.dir/sample-simulator.cc.o"
   "CMakeFiles/sample-simulator.dir/sample-simulator.cc.o.d"
 )

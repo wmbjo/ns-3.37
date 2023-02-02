@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/netanim/examples/ns3.37-star-animation-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/netanim/examples/ns3.37-star-animation-debug.pdb"
+  "../../../../build/src/netanim/examples/ns3.37-star-animation-optimized"
+  "../../../../build/src/netanim/examples/ns3.37-star-animation-optimized.pdb"
   "CMakeFiles/star-animation.dir/star-animation.cc.o"
   "CMakeFiles/star-animation.dir/star-animation.cc.o.d"
 )

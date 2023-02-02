@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/tutorial/ns3.37-sixth-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/tutorial/ns3.37-sixth-debug.pdb"
+  "../../../build/examples/tutorial/ns3.37-sixth-optimized"
+  "../../../build/examples/tutorial/ns3.37-sixth-optimized.pdb"
   "CMakeFiles/sixth.dir/sixth.cc.o"
   "CMakeFiles/sixth.dir/sixth.cc.o.d"
   "CMakeFiles/sixth.dir/tutorial-app.cc.o"

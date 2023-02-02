@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/traffic-control/ns3.37-red-vs-fengadaptive-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/traffic-control/ns3.37-red-vs-fengadaptive-debug.pdb"
+  "../../../build/examples/traffic-control/ns3.37-red-vs-fengadaptive-optimized"
+  "../../../build/examples/traffic-control/ns3.37-red-vs-fengadaptive-optimized.pdb"
   "CMakeFiles/red-vs-fengadaptive.dir/red-vs-fengadaptive.cc.o"
   "CMakeFiles/red-vs-fengadaptive.dir/red-vs-fengadaptive.cc.o.d"
 )

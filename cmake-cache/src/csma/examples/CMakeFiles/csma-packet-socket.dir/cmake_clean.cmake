@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/csma/examples/ns3.37-csma-packet-socket-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/csma/examples/ns3.37-csma-packet-socket-debug.pdb"
+  "../../../../build/src/csma/examples/ns3.37-csma-packet-socket-optimized"
+  "../../../../build/src/csma/examples/ns3.37-csma-packet-socket-optimized.pdb"
   "CMakeFiles/csma-packet-socket.dir/csma-packet-socket.cc.o"
   "CMakeFiles/csma-packet-socket.dir/csma-packet-socket.cc.o.d"
 )

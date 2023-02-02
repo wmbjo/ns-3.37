@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-blockack-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-blockack-debug.pdb"
+  "../../../build/examples/wireless/ns3.37-wifi-blockack-optimized"
+  "../../../build/examples/wireless/ns3.37-wifi-blockack-optimized.pdb"
   "CMakeFiles/wifi-blockack.dir/wifi-blockack.cc.o"
   "CMakeFiles/wifi-blockack.dir/wifi-blockack.cc.o.d"
 )

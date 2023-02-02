@@ -8,6 +8,6 @@ URL:
 Version: 3.37
 Requires:  ns3-internet ns3-mobility ns3-wimax ns3-wifi ns3-csma ns3-lte ns3-uan ns3-energy ns3-lr-wpan ns3-wave ns3-point-to-point-layout
 Requires.private: 
-Cflags: -I"${includedir}"  -I/Users/william/opt/miniconda3/include/python3.9
-Libs: -L"${libdir}" -lns3.37-netanim-debug  -lns3.37-internet-debug -lns3.37-mobility-debug -lns3.37-wimax-debug -lns3.37-wifi-debug -lns3.37-csma-debug -lns3.37-lte-debug -lns3.37-uan-debug -lns3.37-energy-debug -lns3.37-lr-wpan-debug -lns3.37-wave-debug -lns3.37-point-to-point-layout-debug
+Cflags: -I"${includedir}" -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr; -I/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include/libxml2 -I/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11
+Libs: -L"${libdir}" -lns3.37-netanim-optimized  -lns3.37-internet-optimized -lns3.37-mobility-optimized -lns3.37-wimax-optimized -lns3.37-wifi-optimized -lns3.37-csma-optimized -lns3.37-lte-optimized -lns3.37-uan-optimized -lns3.37-energy-optimized -lns3.37-lr-wpan-optimized -lns3.37-wave-optimized -lns3.37-point-to-point-layout-optimized
 Libs.private: -L"${libdir}" 

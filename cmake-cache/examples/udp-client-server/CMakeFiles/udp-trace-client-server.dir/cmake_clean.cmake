@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/udp-client-server/ns3.37-udp-trace-client-server-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/udp-client-server/ns3.37-udp-trace-client-server-debug.pdb"
+  "../../../build/examples/udp-client-server/ns3.37-udp-trace-client-server-optimized"
+  "../../../build/examples/udp-client-server/ns3.37-udp-trace-client-server-optimized.pdb"
   "CMakeFiles/udp-trace-client-server.dir/udp-trace-client-server.cc.o"
   "CMakeFiles/udp-trace-client-server.dir/udp-trace-client-server.cc.o.d"
 )

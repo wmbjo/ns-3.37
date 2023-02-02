@@ -1,4 +1,4 @@
-# Install script for directory: /Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave
+# Install script for directory: /Users/william/Documents/ns-3.37/src/wave
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -34,50 +34,50 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-wave-debug.dylib")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wave-debug.dylib" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wave-debug.dylib")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/william/Documents/ns-3.37/build/lib/libns3.37-wave-optimized.dylib")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wave-optimized.dylib" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wave-optimized.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wave-debug.dylib")
+      -delete_rpath "/Users/william/Documents/ns-3.37/build/lib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wave-optimized.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wave-debug.dylib")
+      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libns3.37-wave-optimized.dylib")
     endif()
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ns3" TYPE FILE FILES
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/helper/wave-bsm-helper.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/helper/wave-bsm-stats.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/helper/wave-helper.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/helper/wave-mac-helper.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/helper/wifi-80211p-helper.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/model/bsm-application.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/model/channel-coordinator.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/model/channel-manager.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/model/channel-scheduler.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/model/default-channel-scheduler.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/model/higher-tx-tag.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/model/ocb-wifi-mac.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/model/vendor-specific-action.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/model/vsa-manager.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/model/wave-frame-exchange-manager.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wave/model/wave-net-device.h"
-    "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/include/ns3/wave-module.h"
+    "/Users/william/Documents/ns-3.37/src/wave/helper/wave-bsm-helper.h"
+    "/Users/william/Documents/ns-3.37/src/wave/helper/wave-bsm-stats.h"
+    "/Users/william/Documents/ns-3.37/src/wave/helper/wave-helper.h"
+    "/Users/william/Documents/ns-3.37/src/wave/helper/wave-mac-helper.h"
+    "/Users/william/Documents/ns-3.37/src/wave/helper/wifi-80211p-helper.h"
+    "/Users/william/Documents/ns-3.37/src/wave/model/bsm-application.h"
+    "/Users/william/Documents/ns-3.37/src/wave/model/channel-coordinator.h"
+    "/Users/william/Documents/ns-3.37/src/wave/model/channel-manager.h"
+    "/Users/william/Documents/ns-3.37/src/wave/model/channel-scheduler.h"
+    "/Users/william/Documents/ns-3.37/src/wave/model/default-channel-scheduler.h"
+    "/Users/william/Documents/ns-3.37/src/wave/model/higher-tx-tag.h"
+    "/Users/william/Documents/ns-3.37/src/wave/model/ocb-wifi-mac.h"
+    "/Users/william/Documents/ns-3.37/src/wave/model/vendor-specific-action.h"
+    "/Users/william/Documents/ns-3.37/src/wave/model/vsa-manager.h"
+    "/Users/william/Documents/ns-3.37/src/wave/model/wave-frame-exchange-manager.h"
+    "/Users/william/Documents/ns-3.37/src/wave/model/wave-net-device.h"
+    "/Users/william/Documents/ns-3.37/build/include/ns3/wave-module.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/william/Documents/ns-allinone-3.37/ns-3.37/cmake-cache/src/wave/examples/cmake_install.cmake")
+  include("/Users/william/Documents/ns-3.37/cmake-cache/src/wave/examples/cmake_install.cmake")
 
 endif()
 

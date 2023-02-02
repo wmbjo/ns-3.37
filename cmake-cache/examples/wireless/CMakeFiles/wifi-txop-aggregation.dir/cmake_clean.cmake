@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-txop-aggregation-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-txop-aggregation-debug.pdb"
+  "../../../build/examples/wireless/ns3.37-wifi-txop-aggregation-optimized"
+  "../../../build/examples/wireless/ns3.37-wifi-txop-aggregation-optimized.pdb"
   "CMakeFiles/wifi-txop-aggregation.dir/wifi-txop-aggregation.cc.o"
   "CMakeFiles/wifi-txop-aggregation.dir/wifi-txop-aggregation.cc.o.d"
 )

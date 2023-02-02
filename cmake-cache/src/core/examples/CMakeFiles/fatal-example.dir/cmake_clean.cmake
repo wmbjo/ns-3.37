@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/core/examples/ns3.37-fatal-example-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/core/examples/ns3.37-fatal-example-debug.pdb"
+  "../../../../build/src/core/examples/ns3.37-fatal-example-optimized"
+  "../../../../build/src/core/examples/ns3.37-fatal-example-optimized.pdb"
   "CMakeFiles/fatal-example.dir/fatal-example.cc.o"
   "CMakeFiles/fatal-example.dir/fatal-example.cc.o.d"
 )

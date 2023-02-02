@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/tcp/ns3.37-tcp-linux-reno-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/tcp/ns3.37-tcp-linux-reno-debug.pdb"
+  "../../../build/examples/tcp/ns3.37-tcp-linux-reno-optimized"
+  "../../../build/examples/tcp/ns3.37-tcp-linux-reno-optimized.pdb"
   "CMakeFiles/tcp-linux-reno.dir/tcp-linux-reno.cc.o"
   "CMakeFiles/tcp-linux-reno.dir/tcp-linux-reno.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lr-wpan/examples/ns3.37-lr-wpan-data-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lr-wpan/examples/ns3.37-lr-wpan-data-debug.pdb"
+  "../../../../build/src/lr-wpan/examples/ns3.37-lr-wpan-data-optimized"
+  "../../../../build/src/lr-wpan/examples/ns3.37-lr-wpan-data-optimized.pdb"
   "CMakeFiles/lr-wpan-data.dir/lr-wpan-data.cc.o"
   "CMakeFiles/lr-wpan-data.dir/lr-wpan-data.cc.o.d"
 )

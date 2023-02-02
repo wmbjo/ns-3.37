@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-propagation-test-debug.dylib"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-propagation-test-debug.pdb"
+  "../../../build/lib/libns3.37-propagation-test-optimized.dylib"
+  "../../../build/lib/libns3.37-propagation-test-optimized.pdb"
   "CMakeFiles/libpropagation-test.dir/test/channel-condition-model-test-suite.cc.o"
   "CMakeFiles/libpropagation-test.dir/test/channel-condition-model-test-suite.cc.o.d"
   "CMakeFiles/libpropagation-test.dir/test/itu-r-1411-los-test-suite.cc.o"

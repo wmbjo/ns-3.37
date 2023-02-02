@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/routing/ns3.37-rip-simple-network-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/routing/ns3.37-rip-simple-network-debug.pdb"
+  "../../../build/examples/routing/ns3.37-rip-simple-network-optimized"
+  "../../../build/examples/routing/ns3.37-rip-simple-network-optimized.pdb"
   "CMakeFiles/rip-simple-network.dir/rip-simple-network.cc.o"
   "CMakeFiles/rip-simple-network.dir/rip-simple-network.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-rate-adaptation-distance-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-rate-adaptation-distance-debug.pdb"
+  "../../../build/examples/wireless/ns3.37-wifi-rate-adaptation-distance-optimized"
+  "../../../build/examples/wireless/ns3.37-wifi-rate-adaptation-distance-optimized.pdb"
   "CMakeFiles/wifi-rate-adaptation-distance.dir/wifi-rate-adaptation-distance.cc.o"
   "CMakeFiles/wifi-rate-adaptation-distance.dir/wifi-rate-adaptation-distance.cc.o.d"
 )

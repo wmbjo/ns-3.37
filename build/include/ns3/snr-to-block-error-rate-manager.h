@@ -1,1 +1,1 @@
-#include "/Users/william/Documents/ns-allinone-3.37/ns-3.37/src/wimax/model/snr-to-block-error-rate-manager.h"
+#include "/Users/william/Documents/ns-3.37/src/wimax/model/snr-to-block-error-rate-manager.h"

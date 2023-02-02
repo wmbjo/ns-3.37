@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/wifi/examples/ns3.37-wifi-test-interference-helper-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/wifi/examples/ns3.37-wifi-test-interference-helper-debug.pdb"
+  "../../../../build/src/wifi/examples/ns3.37-wifi-test-interference-helper-optimized"
+  "../../../../build/src/wifi/examples/ns3.37-wifi-test-interference-helper-optimized.pdb"
   "CMakeFiles/wifi-test-interference-helper.dir/wifi-test-interference-helper.cc.o"
   "CMakeFiles/wifi-test-interference-helper.dir/wifi-test-interference-helper.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/internet/examples/ns3.37-main-simple-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/internet/examples/ns3.37-main-simple-debug.pdb"
+  "../../../../build/src/internet/examples/ns3.37-main-simple-optimized"
+  "../../../../build/src/internet/examples/ns3.37-main-simple-optimized.pdb"
   "CMakeFiles/main-simple.dir/main-simple.cc.o"
   "CMakeFiles/main-simple.dir/main-simple.cc.o.d"
 )

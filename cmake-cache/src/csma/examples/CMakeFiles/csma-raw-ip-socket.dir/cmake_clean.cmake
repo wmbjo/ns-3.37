@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/csma/examples/ns3.37-csma-raw-ip-socket-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/csma/examples/ns3.37-csma-raw-ip-socket-debug.pdb"
+  "../../../../build/src/csma/examples/ns3.37-csma-raw-ip-socket-optimized"
+  "../../../../build/src/csma/examples/ns3.37-csma-raw-ip-socket-optimized.pdb"
   "CMakeFiles/csma-raw-ip-socket.dir/csma-raw-ip-socket.cc.o"
   "CMakeFiles/csma-raw-ip-socket.dir/csma-raw-ip-socket.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-energy-test-debug.dylib"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/lib/libns3.37-energy-test-debug.pdb"
+  "../../../build/lib/libns3.37-energy-test-optimized.dylib"
+  "../../../build/lib/libns3.37-energy-test-optimized.pdb"
   "CMakeFiles/libenergy-test.dir/test/basic-energy-harvester-test.cc.o"
   "CMakeFiles/libenergy-test.dir/test/basic-energy-harvester-test.cc.o.d"
   "CMakeFiles/libenergy-test.dir/test/li-ion-energy-source-test.cc.o"

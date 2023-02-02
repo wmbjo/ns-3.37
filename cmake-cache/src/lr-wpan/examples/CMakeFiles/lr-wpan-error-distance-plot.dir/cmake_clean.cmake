@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lr-wpan/examples/ns3.37-lr-wpan-error-distance-plot-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lr-wpan/examples/ns3.37-lr-wpan-error-distance-plot-debug.pdb"
+  "../../../../build/src/lr-wpan/examples/ns3.37-lr-wpan-error-distance-plot-optimized"
+  "../../../../build/src/lr-wpan/examples/ns3.37-lr-wpan-error-distance-plot-optimized.pdb"
   "CMakeFiles/lr-wpan-error-distance-plot.dir/lr-wpan-error-distance-plot.cc.o"
   "CMakeFiles/lr-wpan-error-distance-plot.dir/lr-wpan-error-distance-plot.cc.o.d"
 )

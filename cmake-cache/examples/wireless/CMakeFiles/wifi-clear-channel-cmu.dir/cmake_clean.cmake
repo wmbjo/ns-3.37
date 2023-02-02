@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-clear-channel-cmu-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/wireless/ns3.37-wifi-clear-channel-cmu-debug.pdb"
+  "../../../build/examples/wireless/ns3.37-wifi-clear-channel-cmu-optimized"
+  "../../../build/examples/wireless/ns3.37-wifi-clear-channel-cmu-optimized.pdb"
   "CMakeFiles/wifi-clear-channel-cmu.dir/wifi-clear-channel-cmu.cc.o"
   "CMakeFiles/wifi-clear-channel-cmu.dir/wifi-clear-channel-cmu.cc.o.d"
 )

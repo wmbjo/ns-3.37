@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/tcp/ns3.37-dctcp-example-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/examples/tcp/ns3.37-dctcp-example-debug.pdb"
+  "../../../build/examples/tcp/ns3.37-dctcp-example-optimized"
+  "../../../build/examples/tcp/ns3.37-dctcp-example-optimized.pdb"
   "CMakeFiles/dctcp-example.dir/dctcp-example.cc.o"
   "CMakeFiles/dctcp-example.dir/dctcp-example.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lte/examples/ns3.37-lena-simple-epc-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/lte/examples/ns3.37-lena-simple-epc-debug.pdb"
+  "../../../../build/src/lte/examples/ns3.37-lena-simple-epc-optimized"
+  "../../../../build/src/lte/examples/ns3.37-lena-simple-epc-optimized.pdb"
   "CMakeFiles/lena-simple-epc.dir/lena-simple-epc.cc.o"
   "CMakeFiles/lena-simple-epc.dir/lena-simple-epc.cc.o.d"
 )

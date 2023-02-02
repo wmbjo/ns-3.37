@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/propagation/examples/ns3.37-jakes-propagation-model-example-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/propagation/examples/ns3.37-jakes-propagation-model-example-debug.pdb"
+  "../../../../build/src/propagation/examples/ns3.37-jakes-propagation-model-example-optimized"
+  "../../../../build/src/propagation/examples/ns3.37-jakes-propagation-model-example-optimized.pdb"
   "CMakeFiles/jakes-propagation-model-example.dir/jakes-propagation-model-example.cc.o"
   "CMakeFiles/jakes-propagation-model-example.dir/jakes-propagation-model-example.cc.o.d"
 )

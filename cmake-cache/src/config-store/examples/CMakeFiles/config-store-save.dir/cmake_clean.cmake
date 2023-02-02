@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/config-store/examples/ns3.37-config-store-save-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/src/config-store/examples/ns3.37-config-store-save-debug.pdb"
+  "../../../../build/src/config-store/examples/ns3.37-config-store-save-optimized"
+  "../../../../build/src/config-store/examples/ns3.37-config-store-save-optimized.pdb"
   "CMakeFiles/config-store-save.dir/config-store-save.cc.o"
   "CMakeFiles/config-store-save.dir/config-store-save.cc.o.d"
 )

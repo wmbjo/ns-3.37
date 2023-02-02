@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/scratch/ns3.37-main-propagation-loss-debug"
-  "/Users/william/Documents/ns-allinone-3.37/ns-3.37/build/scratch/ns3.37-main-propagation-loss-debug.pdb"
+  "../../build/scratch/ns3.37-main-propagation-loss-optimized"
+  "../../build/scratch/ns3.37-main-propagation-loss-optimized.pdb"
   "CMakeFiles/scratch_main-propagation-loss.dir/main-propagation-loss.cc.o"
   "CMakeFiles/scratch_main-propagation-loss.dir/main-propagation-loss.cc.o.d"
 )
