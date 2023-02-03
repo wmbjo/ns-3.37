@@ -2330,6 +2330,21 @@ utils/clean: utils/CMakeFiles/perf-io.dir/clean
 # Target rules for target CMakeFiles/uninstall.dir
 
 # All Build rule for target.
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_wimax.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_wifi.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_wave.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_virtual-net-device.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_uan.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_traffic-control.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_topology-read.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_stats.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_spectrum.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_sixlowpan.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_propagation.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_point-to-point-layout.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_point-to-point.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_olsr.dir/all
+CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_nix-vector-routing.dir/all
 CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_network.dir/all
 CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_netanim.dir/all
 CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_mobility.dir/all
@@ -2351,21 +2366,6 @@ CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_bridge.dir/all
 CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_applications.dir/all
 CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_aodv.dir/all
 CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_antenna.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_wimax.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_wifi.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_wave.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_virtual-net-device.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_uan.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_traffic-control.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_topology-read.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_stats.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_spectrum.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_sixlowpan.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_propagation.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_point-to-point-layout.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_point-to-point.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_olsr.dir/all
-CMakeFiles/uninstall.dir/all: CMakeFiles/uninstall_pkgconfig_nix-vector-routing.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : CMakeFiles/uninstall.dir/all
@@ -16061,8 +16061,8 @@ scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/clean:
 # Target rules for target utils/CMakeFiles/test-runner.dir
 
 # All Build rule for target.
-utils/CMakeFiles/test-runner.dir/all: src/netanim/CMakeFiles/libnetanim-test.dir/all
 utils/CMakeFiles/test-runner.dir/all: CMakeFiles/test-runner-examples-as-tests.dir/all
+utils/CMakeFiles/test-runner.dir/all: src/netanim/CMakeFiles/libnetanim-test.dir/all
 utils/CMakeFiles/test-runner.dir/all: src/antenna/CMakeFiles/libantenna.dir/all
 utils/CMakeFiles/test-runner.dir/all: src/antenna/CMakeFiles/libantenna-test.dir/all
 utils/CMakeFiles/test-runner.dir/all: src/aodv/CMakeFiles/libaodv.dir/all

@@ -40,6 +40,7 @@ set(OLD_GLOB
   "/Users/william/Documents/ns-3.37/scratch/subdir/scratch-subdir-additional-header.h"
   "/Users/william/Documents/ns-3.37/scratch/subdir/scratch-subdir.cc"
   "/Users/william/Documents/ns-3.37/scratch/test.cc"
+  "/Users/william/Documents/ns-3.37/scratch/test_isotropic"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

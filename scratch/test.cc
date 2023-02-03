@@ -14,8 +14,8 @@ main (int argc, char *argv[])
   NS_LOG_UNCOND ("Uniform Planar Array - Simulator");
 
   std::ofstream myfile;
-  myfile.open ("simulation_results.csv");
-  myfile << "theta_rad,phi_rad,gain_db\n";
+  myfile.open ("simulation_results_parabolic.csv");
+  myfile << "test,theta_rad,phi_rad,gain_db\n";
   
   /*
     - 1x1 isotropic
@@ -33,17 +33,27 @@ main (int argc, char *argv[])
   */
   
   //Build the scenario for the test
-  uint8_t txAntennaElements[] {1, 1}; // tx antenna dimensions
-  
+  uint8_t txAntennaElements[] {1, 1}; // tx antenna dimensions #Antenna array columns, rows
   // Create the antenna and set the dimensions
   Ptr<PhasedArrayModel> txAntenna = CreateObjectWithAttributes<UniformPlanarArray> ("NumColumns", UintegerValue (txAntennaElements [0]), "NumRows", UintegerValue (txAntennaElements [1]));
-  
+
   // Create and set AntennaElement
-  Ptr<AntennaModel> txAntennaModel = CreateObject<ParabolicAntennaModel> ();
+  //Ptr<AntennaModel> txAntennaModel = CreateObject<ParabolicAntennaModel> ()
+  Ptr<ParabolicAntennaModel> txAntennaModel = CreateObject<ParabolicAntennaModel> ();
+  double sssv = txAntennaModel->GetOrientation();
+  std::cout << sssv;
+  txAntennaModel->SetAttribute("Orientation", DoubleValue(60));
+  double ssssv = txAntennaModel->GetOrientation();
+  std::cout << ssssv;
+  //DoubleValue myInt;
+  //Vector ssv = txAntennaModel->GetAttribute("Orientation",myInt);
+  //myfile << ssv;
+  //std::cout << txAntennaModel->GetAttribute("Orientation",myInt);
   txAntenna->SetAntennaElement(txAntennaModel);
-  
+  std::cout << "hello";
   // Get the beamforming vector related to that angle pair
   PhasedArrayModel::ComplexVector bf = txAntenna->GetBeamformingVector (Angles (0, M_PI/2));
+  
   
   // angles resolution
   int res = 100;
@@ -62,8 +72,8 @@ main (int argc, char *argv[])
        double gain =  af * efp_norm;
        double gain_db = 20 * std::log10(gain);
       myfile << theta << "," << phi << "," << gain_db << "\n";
-      std::cout << "Hello World\n";
-      std::cout << theta;
+    //   std::cout << "Hello World\n";
+    //   std::cout << theta;
     }  
   }
   
