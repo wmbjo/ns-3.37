@@ -5503,6 +5503,19 @@ scratch_test/fast:
 .PHONY : scratch_test/fast
 
 #=============================================================================
+# Target rules for targets named scratch_my-antenna-model_test-my-antenna-model
+
+# Build rule for target.
+scratch_my-antenna-model_test-my-antenna-model: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch_my-antenna-model_test-my-antenna-model
+.PHONY : scratch_my-antenna-model_test-my-antenna-model
+
+# fast build rule for target.
+scratch_my-antenna-model_test-my-antenna-model/fast:
+	$(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/build.make scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/build
+.PHONY : scratch_my-antenna-model_test-my-antenna-model/fast
+
+#=============================================================================
 # Target rules for targets named scratch_subdir_scratch-subdir
 
 # Build rule for target.
@@ -5965,6 +5978,7 @@ help:
 	@echo "... sample-show-progress"
 	@echo "... sample-simulator"
 	@echo "... scratch_main-propagation-loss"
+	@echo "... scratch_my-antenna-model_test-my-antenna-model"
 	@echo "... scratch_scratch-simulator"
 	@echo "... scratch_subdir_scratch-subdir"
 	@echo "... scratch_test"

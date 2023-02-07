@@ -215,6 +215,20 @@ scratch_test/fast:
 .PHONY : scratch_test/fast
 
 # Convenience name for target.
+scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/rule:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/rule
+.PHONY : scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/rule
+
+# Convenience name for target.
+scratch_my-antenna-model_test-my-antenna-model: scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/rule
+.PHONY : scratch_my-antenna-model_test-my-antenna-model
+
+# fast build rule for target.
+scratch_my-antenna-model_test-my-antenna-model/fast:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/build.make scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/build
+.PHONY : scratch_my-antenna-model_test-my-antenna-model/fast
+
+# Convenience name for target.
 scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule:
 	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule
 .PHONY : scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir/rule
@@ -251,6 +265,54 @@ main-propagation-loss.s: main-propagation-loss.cc.s
 main-propagation-loss.cc.s:
 	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_main-propagation-loss.dir/build.make scratch/CMakeFiles/scratch_main-propagation-loss.dir/main-propagation-loss.cc.s
 .PHONY : main-propagation-loss.cc.s
+
+my-antenna-model/my-antenna-model.o: my-antenna-model/my-antenna-model.cc.o
+.PHONY : my-antenna-model/my-antenna-model.o
+
+# target to build an object file
+my-antenna-model/my-antenna-model.cc.o:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/build.make scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/my-antenna-model/my-antenna-model.cc.o
+.PHONY : my-antenna-model/my-antenna-model.cc.o
+
+my-antenna-model/my-antenna-model.i: my-antenna-model/my-antenna-model.cc.i
+.PHONY : my-antenna-model/my-antenna-model.i
+
+# target to preprocess a source file
+my-antenna-model/my-antenna-model.cc.i:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/build.make scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/my-antenna-model/my-antenna-model.cc.i
+.PHONY : my-antenna-model/my-antenna-model.cc.i
+
+my-antenna-model/my-antenna-model.s: my-antenna-model/my-antenna-model.cc.s
+.PHONY : my-antenna-model/my-antenna-model.s
+
+# target to generate assembly for a file
+my-antenna-model/my-antenna-model.cc.s:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/build.make scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/my-antenna-model/my-antenna-model.cc.s
+.PHONY : my-antenna-model/my-antenna-model.cc.s
+
+my-antenna-model/test-my-antenna-model.o: my-antenna-model/test-my-antenna-model.cc.o
+.PHONY : my-antenna-model/test-my-antenna-model.o
+
+# target to build an object file
+my-antenna-model/test-my-antenna-model.cc.o:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/build.make scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/my-antenna-model/test-my-antenna-model.cc.o
+.PHONY : my-antenna-model/test-my-antenna-model.cc.o
+
+my-antenna-model/test-my-antenna-model.i: my-antenna-model/test-my-antenna-model.cc.i
+.PHONY : my-antenna-model/test-my-antenna-model.i
+
+# target to preprocess a source file
+my-antenna-model/test-my-antenna-model.cc.i:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/build.make scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/my-antenna-model/test-my-antenna-model.cc.i
+.PHONY : my-antenna-model/test-my-antenna-model.cc.i
+
+my-antenna-model/test-my-antenna-model.s: my-antenna-model/test-my-antenna-model.cc.s
+.PHONY : my-antenna-model/test-my-antenna-model.s
+
+# target to generate assembly for a file
+my-antenna-model/test-my-antenna-model.cc.s:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/build.make scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/my-antenna-model/test-my-antenna-model.cc.s
+.PHONY : my-antenna-model/test-my-antenna-model.cc.s
 
 scratch-simulator.o: scratch-simulator.cc.o
 .PHONY : scratch-simulator.o
@@ -362,12 +424,19 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... scratch_main-propagation-loss"
+	@echo "... scratch_my-antenna-model_test-my-antenna-model"
 	@echo "... scratch_scratch-simulator"
 	@echo "... scratch_subdir_scratch-subdir"
 	@echo "... scratch_test"
 	@echo "... main-propagation-loss.o"
 	@echo "... main-propagation-loss.i"
 	@echo "... main-propagation-loss.s"
+	@echo "... my-antenna-model/my-antenna-model.o"
+	@echo "... my-antenna-model/my-antenna-model.i"
+	@echo "... my-antenna-model/my-antenna-model.s"
+	@echo "... my-antenna-model/test-my-antenna-model.o"
+	@echo "... my-antenna-model/test-my-antenna-model.i"
+	@echo "... my-antenna-model/test-my-antenna-model.s"
 	@echo "... scratch-simulator.o"
 	@echo "... scratch-simulator.i"
 	@echo "... scratch-simulator.s"

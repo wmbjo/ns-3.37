@@ -1,0 +1,32 @@
+#include "ns3/cosine-antenna-model.h"
+#include "ns3/core-module"
+#include <fstream>
+#include <numeric>
+#include "ns3/uniform-planar-array.h"
+
+using namespace ns3;
+
+NS_LOG_COMPONENT_DEFINE("COSINESimulator")
+
+int main(int argc, char *argv[]) {
+
+  NS_LOG_UNCOND ("Cosine Antenna");
+
+  std::ofstream myfile;
+  myfile.open ("simulation_results_cosine.csv");
+  myfile << "theta_rad,phi_rad,gain_db\n";
+
+  uint8_t txAntennaElements[] {1, 1}; // tx antenna dimensions #Antenna array columns, rows
+
+    // Create the antenna and set the dimensions
+  Ptr<PhasedArrayModel> txAntenna = CreateObjectWithAttributes<UniformPlanarArray> ("NumColumns", UintegerValue (txAntennaElements [0]), "NumRows", UintegerValue (txAntennaElements [1]));
+
+
+
+
+// Create and set AntennaElement
+  Ptr<AntennaModel> txAntennaModel = CreateObject<CosineAntennaModule> ();
+  txAntenna->SetAntennaElement(txAntennaModel);
+
+
+}

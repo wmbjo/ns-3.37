@@ -15,6 +15,17 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # scratch_sources at scratch/CMakeLists.txt:88 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/william/Documents/ns-3.37/scratch/my-antenna-model/[^.]*.cc")
+set(OLD_GLOB
+  "/Users/william/Documents/ns-3.37/scratch/my-antenna-model/my-antenna-model.cc"
+  "/Users/william/Documents/ns-3.37/scratch/my-antenna-model/test-my-antenna-model.cc"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/william/Documents/ns-3.37/cmake-cache/CMakeFiles/cmake.verify_globs")
+endif()
+
+# scratch_sources at scratch/CMakeLists.txt:88 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/william/Documents/ns-3.37/scratch/subdir/[^.]*.cc")
 set(OLD_GLOB
   "/Users/william/Documents/ns-3.37/scratch/subdir/scratch-subdir-additional-header.cc"
@@ -34,6 +45,10 @@ set(OLD_GLOB
   "/Users/william/Documents/ns-3.37/scratch/example-output.txt"
   "/Users/william/Documents/ns-3.37/scratch/main-propagation-loss.cc"
   "/Users/william/Documents/ns-3.37/scratch/main-propagation-loss.pdf"
+  "/Users/william/Documents/ns-3.37/scratch/my-antenna-model"
+  "/Users/william/Documents/ns-3.37/scratch/my-antenna-model/my-antenna-model.cc"
+  "/Users/william/Documents/ns-3.37/scratch/my-antenna-model/my-antenna-model.h"
+  "/Users/william/Documents/ns-3.37/scratch/my-antenna-model/test-my-antenna-model.cc"
   "/Users/william/Documents/ns-3.37/scratch/scratch-simulator.cc"
   "/Users/william/Documents/ns-3.37/scratch/subdir"
   "/Users/william/Documents/ns-3.37/scratch/subdir/scratch-subdir-additional-header.cc"

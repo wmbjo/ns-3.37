@@ -1059,6 +1059,7 @@
 /Users/william/Documents/ns-3.37/cmake-cache/scratch/CMakeFiles/scratch_main-propagation-loss.dir
 /Users/william/Documents/ns-3.37/cmake-cache/scratch/CMakeFiles/scratch_scratch-simulator.dir
 /Users/william/Documents/ns-3.37/cmake-cache/scratch/CMakeFiles/scratch_test.dir
+/Users/william/Documents/ns-3.37/cmake-cache/scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir
 /Users/william/Documents/ns-3.37/cmake-cache/scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir
 /Users/william/Documents/ns-3.37/cmake-cache/scratch/CMakeFiles/test.dir
 /Users/william/Documents/ns-3.37/cmake-cache/scratch/CMakeFiles/edit_cache.dir
