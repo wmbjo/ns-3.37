@@ -7,31 +7,17 @@
 
 using namespace ns3;
 
-NS_LOG_COMPONENT_DEFINE ("UPASimulator");
+NS_LOG_COMPONENT_DEFINE ("AntennaSimulation");
 
 int 
 main (int argc, char *argv[])
 {
-  NS_LOG_UNCOND ("Uniform Planar Array - Simulator");
+  NS_LOG_UNCOND ("Custom Antenna Module Simulation");
 
   std::ofstream myfile;
-  myfile.open ("simulation_my_antenna_model.csv");
+  myfile.open ("simulation_my_antenna_model_2.csv");
   myfile << "theta_rad,phi_rad,gain_db\n";
   
-  /*
-    - 1x1 isotropic
-    - 1x1 cosine
-    - 1x1 parabolic
-    - 1x8 parabolic
-    - 8x1 parabolic
-    - 8x8 parabolic
-    - 8x8 parabolic con vertical spacing 0.8 (e horizontal spacing di default, i.e., 0.5)
-    Come beamforming angles puoi provare, oltre a quello di default (0, pi/2):
-    - (pi/4, pi/2)
-    - (pi/2, pi/2)
-    - (0, pi/4)
-    - (0, 0)
-  */
   
   //Build the scenario for the test
   uint8_t txAntennaElements[] {1, 1}; // tx antenna dimensions #Antenna array columns, rows
@@ -43,7 +29,9 @@ main (int argc, char *argv[])
   Ptr<ParabolicAntennaModel> txAntennaModel = CreateObject<ParabolicAntennaModel> ();
   double sssv = txAntennaModel->GetOrientation();
   std::cout << sssv;
-  txAntennaModel->SetAttribute("Orientation", DoubleValue(60));
+  txAntennaModel->SetAttribute("Orientation", DoubleValue(0)); //modify
+  txAntennaModel->SetAttribute("Beamwidth", DoubleValue(60)); //modify
+
   double ssssv = txAntennaModel->GetOrientation();
   std::cout << ssssv;
   //DoubleValue myInt;
@@ -59,24 +47,54 @@ main (int argc, char *argv[])
   // angles resolution
   int res = 100;
   
+//   const int N = 1000;
+//     double delta = 2 * M_PI / N;
+//     for (int i = 0; i < N; ++i) {
+//         double phi = i * delta;
+//         std::cout << phi << "\n";
+//     }
 
 
   for (double phi = -M_PI; phi < M_PI; phi = phi + (2*M_PI/res))
   {
-    for (double theta = 0; theta < M_PI; theta = theta + (2*M_PI/res))
+    for (double theta = -M_PI/3; theta < M_PI/3; theta = theta + (2*M_PI/res))
     {
+    //   std::cout << "Phi " << phi << " Theta " << theta << "\n"; 
       Angles a = Angles(phi, theta);
+      double mygb = txAntennaModel->GetGainDb(a);
+      std::cout << "Angles " << a << "\n";
+      std::cout << "Gain DB " << mygb << "\n";
+      double mybw = txAntennaModel->GetBeamwidth();
+      std::cout << "Beamwidth (Degrees) " << mybw << "\n";
       PhasedArrayModel::ComplexVector sv = txAntenna->GetSteeringVector(a);
        std::pair<double, double> efp = txAntenna->GetElementFieldPattern(a);
-       double efp_norm = std::sqrt(std::pow(std::get<0>(efp),2) + std::pow(std::get<1>(efp),2));
+       double efp_norm = std::sqrt(std::pow(std::get<0>(efp),2) + std::pow(std::get<1>(efp),2)); //perhaps this means effective power
        double af = std::abs(sv[0]*bf[0]);
        double gain =  af * efp_norm;
        double gain_db = 20 * std::log10(gain);
+       std::cout << "Custom Gain DB " << gain_db << "\n";
       myfile << theta << "," << phi << "," << gain_db << "\n";
     //   std::cout << "Hello World\n";
     //   std::cout << theta;
     }  
   }
+
+//   for (double phi = -M_PI; phi < M_PI; phi = phi + (2*M_PI/res))
+//   {
+//     for (double theta = 0; theta < M_PI; theta = theta + (2*M_PI/res))
+//     {
+//       Angles a = Angles(phi, theta);
+//       PhasedArrayModel::ComplexVector sv = txAntenna->GetSteeringVector(a);
+//        std::pair<double, double> efp = txAntenna->GetElementFieldPattern(a);
+//        double efp_norm = std::sqrt(std::pow(std::get<0>(efp),2) + std::pow(std::get<1>(efp),2));
+//        double af = std::abs(sv[0]*bf[0]);
+//        double gain =  af * efp_norm;
+//        double gain_db = 20 * std::log10(gain);
+//       myfile << theta << "," << phi << "," << gain_db << "\n";
+//     //   std::cout << "Hello World\n";
+//     //   std::cout << theta;
+//     }  
+//   }
   
   myfile.close();
   
