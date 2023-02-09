@@ -55,9 +55,10 @@ main (int argc, char *argv[])
 //     }
 
 
-  for (double phi = -M_PI; phi < M_PI; phi = phi + (2*M_PI/res))
+  //for (double phi = -M_PI; phi < M_PI; phi = phi + (2*M_PI/res))
+  for (double phi = 0; phi < M_PI/2; phi = phi + (2*M_PI/res))
   {
-    for (double theta = -M_PI/3; theta < M_PI/3; theta = theta + (2*M_PI/res))
+    for (double theta = -M_PI; theta < M_PI; theta = theta + (2*M_PI/res))
     {
     //   std::cout << "Phi " << phi << " Theta " << theta << "\n"; 
       Angles a = Angles(phi, theta);
