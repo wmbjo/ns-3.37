@@ -514,6 +514,10 @@ scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/my-antenna
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/complex \
   /Users/william/Documents/ns-3.37/build/include/ns3/parabolic-antenna-model.h \
   /Users/william/Documents/ns-3.37/src/antenna/model/parabolic-antenna-model.h \
+  /Users/william/Documents/ns-3.37/build/include/ns3/isotropic-antenna-model.h \
+  /Users/william/Documents/ns-3.37/src/antenna/model/isotropic-antenna-model.h \
+  /Users/william/Documents/ns-3.37/build/include/ns3/three-gpp-antenna-model.h \
+  /Users/william/Documents/ns-3.37/src/antenna/model/three-gpp-antenna-model.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
   /Users/william/Documents/ns-3.37/build/include/ns3/core-module.h \
   /Users/william/Documents/ns-3.37/build/include/ns3/int64x64-128.h \

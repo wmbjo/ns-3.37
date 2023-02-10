@@ -1024,6 +1024,8 @@ scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/my-antenna
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/complex \
   ../build/include/ns3/parabolic-antenna-model.h \
   ../src/antenna/model/parabolic-antenna-model.h \
+  ../build/include/ns3/isotropic-antenna-model.h \
+  ../src/antenna/model/isotropic-antenna-model.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
   ../build/include/ns3/core-module.h \
   ../build/include/ns3/int64x64-128.h \
@@ -1362,6 +1364,8 @@ scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/my-antenna
 ../src/core/model/int64x64-128.h:
 
 ../build/include/ns3/int64x64-128.h:
+
+../src/antenna/model/isotropic-antenna-model.h:
 
 ../build/include/ns3/unused.h:
 
@@ -2194,6 +2198,8 @@ CMakeFiles/stdlib_pch_exec.dir/cmake_pch_arm64.hxx:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/new:
 
 ../build/include/ns3/config.h:
+
+../build/include/ns3/isotropic-antenna-model.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/malloc/_malloc.h:
 

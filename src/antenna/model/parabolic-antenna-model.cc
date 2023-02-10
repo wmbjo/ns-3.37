@@ -108,8 +108,8 @@ ParabolicAntennaModel::GetGainDb(Angles a)
     NS_LOG_LOGIC("phi = " << phi);
     //std::cout << "First Value " << 12 * pow(phi / m_beamwidthRadians, 2);
     //std::cout << "Second Value " << m_maxAttenuation;
-    double gainDb = 12 * pow(phi / m_beamwidthRadians, 2);
-    //double gainDb = -std::min(12 * pow(phi / m_beamwidthRadians, 2), m_maxAttenuation);
+    //double gainDb = 12 * pow(phi / m_beamwidthRadians, 2);
+    double gainDb = -std::min(12 * pow(phi / m_beamwidthRadians, 2), m_maxAttenuation);
 
     NS_LOG_LOGIC("gain = " << gainDb);
     return gainDb;
