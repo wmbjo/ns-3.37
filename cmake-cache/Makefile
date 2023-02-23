@@ -5503,6 +5503,19 @@ scratch_test/fast:
 .PHONY : scratch_test/fast
 
 #=============================================================================
+# Target rules for targets named scratch_mimo-system-test_test
+
+# Build rule for target.
+scratch_mimo-system-test_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch_mimo-system-test_test
+.PHONY : scratch_mimo-system-test_test
+
+# fast build rule for target.
+scratch_mimo-system-test_test/fast:
+	$(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_mimo-system-test_test.dir/build.make scratch/CMakeFiles/scratch_mimo-system-test_test.dir/build
+.PHONY : scratch_mimo-system-test_test/fast
+
+#=============================================================================
 # Target rules for targets named scratch_my-antenna-model_test-my-antenna-model
 
 # Build rule for target.
@@ -5978,6 +5991,7 @@ help:
 	@echo "... sample-show-progress"
 	@echo "... sample-simulator"
 	@echo "... scratch_main-propagation-loss"
+	@echo "... scratch_mimo-system-test_test"
 	@echo "... scratch_my-antenna-model_test-my-antenna-model"
 	@echo "... scratch_scratch-simulator"
 	@echo "... scratch_subdir_scratch-subdir"

@@ -215,6 +215,20 @@ scratch_test/fast:
 .PHONY : scratch_test/fast
 
 # Convenience name for target.
+scratch/CMakeFiles/scratch_mimo-system-test_test.dir/rule:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_mimo-system-test_test.dir/rule
+.PHONY : scratch/CMakeFiles/scratch_mimo-system-test_test.dir/rule
+
+# Convenience name for target.
+scratch_mimo-system-test_test: scratch/CMakeFiles/scratch_mimo-system-test_test.dir/rule
+.PHONY : scratch_mimo-system-test_test
+
+# fast build rule for target.
+scratch_mimo-system-test_test/fast:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_mimo-system-test_test.dir/build.make scratch/CMakeFiles/scratch_mimo-system-test_test.dir/build
+.PHONY : scratch_mimo-system-test_test/fast
+
+# Convenience name for target.
 scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/rule:
 	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/rule
 .PHONY : scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/rule
@@ -265,6 +279,30 @@ main-propagation-loss.s: main-propagation-loss.cc.s
 main-propagation-loss.cc.s:
 	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_main-propagation-loss.dir/build.make scratch/CMakeFiles/scratch_main-propagation-loss.dir/main-propagation-loss.cc.s
 .PHONY : main-propagation-loss.cc.s
+
+mimo-system-test/test.o: mimo-system-test/test.cc.o
+.PHONY : mimo-system-test/test.o
+
+# target to build an object file
+mimo-system-test/test.cc.o:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_mimo-system-test_test.dir/build.make scratch/CMakeFiles/scratch_mimo-system-test_test.dir/mimo-system-test/test.cc.o
+.PHONY : mimo-system-test/test.cc.o
+
+mimo-system-test/test.i: mimo-system-test/test.cc.i
+.PHONY : mimo-system-test/test.i
+
+# target to preprocess a source file
+mimo-system-test/test.cc.i:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_mimo-system-test_test.dir/build.make scratch/CMakeFiles/scratch_mimo-system-test_test.dir/mimo-system-test/test.cc.i
+.PHONY : mimo-system-test/test.cc.i
+
+mimo-system-test/test.s: mimo-system-test/test.cc.s
+.PHONY : mimo-system-test/test.s
+
+# target to generate assembly for a file
+mimo-system-test/test.cc.s:
+	cd /Users/william/Documents/ns-3.37/cmake-cache && $(MAKE) $(MAKESILENT) -f scratch/CMakeFiles/scratch_mimo-system-test_test.dir/build.make scratch/CMakeFiles/scratch_mimo-system-test_test.dir/mimo-system-test/test.cc.s
+.PHONY : mimo-system-test/test.cc.s
 
 my-antenna-model/my-antenna-model.o: my-antenna-model/my-antenna-model.cc.o
 .PHONY : my-antenna-model/my-antenna-model.o
@@ -424,6 +462,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... scratch_main-propagation-loss"
+	@echo "... scratch_mimo-system-test_test"
 	@echo "... scratch_my-antenna-model_test-my-antenna-model"
 	@echo "... scratch_scratch-simulator"
 	@echo "... scratch_subdir_scratch-subdir"
@@ -431,6 +470,9 @@ help:
 	@echo "... main-propagation-loss.o"
 	@echo "... main-propagation-loss.i"
 	@echo "... main-propagation-loss.s"
+	@echo "... mimo-system-test/test.o"
+	@echo "... mimo-system-test/test.i"
+	@echo "... mimo-system-test/test.s"
 	@echo "... my-antenna-model/my-antenna-model.o"
 	@echo "... my-antenna-model/my-antenna-model.i"
 	@echo "... my-antenna-model/my-antenna-model.s"

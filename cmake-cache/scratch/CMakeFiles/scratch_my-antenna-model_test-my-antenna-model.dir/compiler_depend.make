@@ -1026,6 +1026,8 @@ scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/my-antenna
   ../src/antenna/model/parabolic-antenna-model.h \
   ../build/include/ns3/isotropic-antenna-model.h \
   ../src/antenna/model/isotropic-antenna-model.h \
+  ../build/include/ns3/three-gpp-antenna-model.h \
+  ../src/antenna/model/three-gpp-antenna-model.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
   ../build/include/ns3/core-module.h \
   ../build/include/ns3/int64x64-128.h \
@@ -1364,6 +1366,8 @@ scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/my-antenna
 ../src/core/model/int64x64-128.h:
 
 ../build/include/ns3/int64x64-128.h:
+
+../build/include/ns3/three-gpp-antenna-model.h:
 
 ../src/antenna/model/isotropic-antenna-model.h:
 
@@ -2110,6 +2114,8 @@ scratch/CMakeFiles/scratch_my-antenna-model_test-my-antenna-model.dir/my-antenna
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stddef.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_sigaltstack.h:
+
+../src/antenna/model/three-gpp-antenna-model.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/all_of.h:
 
